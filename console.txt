@@ -1,12 +1,12 @@
-LOG  : General      f:0> 24-09-2026 17:07:16
+LOG  : General      f:0> 24-09-2026 17:15:48
 LOG  : General      f:0> SLF4J(I): Attempting to load provider "zombie.core.logger.Slf4jBridge" specified via "slf4j.provider" system property
 LOG  : General      f:0> ===== System specs =====
 LOG  : General      f:0> CPU: Apple M3, vendor: Apple Inc., cores: 8, threads: 8
 LOG  : General      f:0> RAM: 16384 Mb
 LOG  : General      f:0> Base board: MC8H4, vendor: Apple Inc.
 LOG  : General      f:0> GPU: Apple M3, vendor: Apple (0x106b), video memory: 0 Mb, driver: unknown
-LOG  : General      f:0> Disk info: 228.27 Gb, free space: 31.26 Gb, usable space: 31.26 Gb
-WARN : General      f:0 at SysctlUtilFFM.sysctlbyname          > Failed sysctl call: MemorySegment{ kind: native, address: 0x904947c20, byteSize: 14 }, Error code: 12
+LOG  : General      f:0> Disk info: 228.27 Gb, free space: 31.21 Gb, usable space: 31.21 Gb
+WARN : General      f:0 at SysctlUtilFFM.sysctlbyname          > Failed sysctl call: MemorySegment{ kind: native, address: 0xa71263dd0, byteSize: 14 }, Error code: 12
 LOG  : General      f:0> OS: Mac OS X, version: 26.6.2, arch: aarch64, build: 25G83
 LOG  : General      f:0> JVM (free: 164 Mb, max: 3072 Mb, total available: 256 Mb)
 LOG  : General      f:0> ========================
@@ -81,20 +81,20 @@ LOG  : General      f:0> Desktop resolution 1470x956
 LOG  : General      f:0> Initial resolution 1470x814 fullScreen=false
 LOG  : General      f:0> OpenGL 1.5 buffer objects supported
 LOG  : General      f:0> VSync: OFF
-LOG  : General      f:0> 1790284037337 fmod: Java loging: OK
-LOG  : General      f:0> 1790284037338 fmod: FMOD::Studio::System::create() result: No errors.
-LOG  : General      f:0> 1790284037338 fmod: FMOD::Studio::System::getCoreSystem() result: No errors.
-LOG  : General      f:0> 1790284037338 fmod: FMOD_System_GetVersion() result: No errors.
-LOG  : General      f:0> 1790284037338 fmod: fmodintegration built with version 20309, fmod shared library version 20309
-LOG  : General      f:0> 1790284037338 fmod: System Create: OK
-LOG  : General      f:0> 1790284037338 fmod: FMOD_System_SetSoftwareFormat() result: No errors.
-LOG  : General      f:0> 1790284037486 fmod: FMOD::Studio::System::Initialize() result: No errors.
-LOG  : General      f:0> 1790284037486 fmod: Creating DSP for capture sound
-LOG  : General      f:0> 1790284037486 fmod: FMOD_System_CreateDSP() result: No errors.
-LOG  : General      f:0> 1790284037486 fmod: FMOD_DSP_SetBypass() result: No errors.
-LOG  : General      f:0> 1790284037486 fmod: FMOD_System_GetMasterChannelGroup() result: No errors.
-LOG  : General      f:0> 1790284037486 fmod: FMOD_ChannelGroup_AddDSP() result: No errors.
-LOG  : General      f:0> 1790284037486 fmod: FMOD_System_Set3DSettings() result: No errors.
+LOG  : General      f:0> 1790284549900 fmod: Java loging: OK
+LOG  : General      f:0> 1790284549901 fmod: FMOD::Studio::System::create() result: No errors.
+LOG  : General      f:0> 1790284549901 fmod: FMOD::Studio::System::getCoreSystem() result: No errors.
+LOG  : General      f:0> 1790284549901 fmod: FMOD_System_GetVersion() result: No errors.
+LOG  : General      f:0> 1790284549901 fmod: fmodintegration built with version 20309, fmod shared library version 20309
+LOG  : General      f:0> 1790284549901 fmod: System Create: OK
+LOG  : General      f:0> 1790284549901 fmod: FMOD_System_SetSoftwareFormat() result: No errors.
+LOG  : General      f:0> 1790284550067 fmod: FMOD::Studio::System::Initialize() result: No errors.
+LOG  : General      f:0> 1790284550067 fmod: Creating DSP for capture sound
+LOG  : General      f:0> 1790284550067 fmod: FMOD_System_CreateDSP() result: No errors.
+LOG  : General      f:0> 1790284550067 fmod: FMOD_DSP_SetBypass() result: No errors.
+LOG  : General      f:0> 1790284550068 fmod: FMOD_System_GetMasterChannelGroup() result: No errors.
+LOG  : General      f:0> 1790284550068 fmod: FMOD_ChannelGroup_AddDSP() result: No errors.
+LOG  : General      f:0> 1790284550068 fmod: FMOD_System_Set3DSettings() result: No errors.
 LOG  : General      f:0> Loading networking libraries...
 LOG  : General      f:0> Loading steam_api...
 LOG  : General      f:0> Loading RakNet...
@@ -3028,8 +3028,8 @@ WARN : Lua          f:0 at Lua(Vanilla).ISAnimalContextMenu.lua> require("Buildi
 WARN : Lua          f:0 at Lua(Vanilla).TakeSameType.lua       > require("ISUI/InventoryWindow/ISLootWindowControlHandler") failed
 WARN : Lua          f:0 at Lua(Vanilla).FloorTakeSameType.lua  > require("ISUI/InventoryWindow/ISLootWindowControlHandler") failed
 WARN : Lua          f:0 at Lua(Vanilla).testUI.lua             > require("pzapi/ui/ui") failed
-LOG  : Lua          f:0> E150 TEST:	table 0x32988717{ activeArmor=closure 0x1484846506 }
-LOG  : Lua          f:0> E150 ACTIVE ARMOR TEST:	closure 0x1484846506
+LOG  : Lua          f:0> E150 TEST:	table 0x1505394455{ activeArmor=closure 0x946155568 }
+LOG  : Lua          f:0> E150 ACTIVE ARMOR TEST:	closure 0x946155568
 LOG  : Lua          f:0> TRUE LINE OF SIGHT BUILD 42 WORKSHOP OPTIMIZED 2026-09-18 HAS LOADED
 LOG  : Lua          f:0> [ManualSaveMod] Core/Config.lua loaded.
 LOG  : Lua          f:0> [ManualSaveMod] Core/EditMods.lua loaded.
@@ -3321,7 +3321,7 @@ LOG  : General      f:0> Looking in these map folders:
 LOG  : General      f:0> <End of map-folders list>
 LOG  : General      f:0> IsoMetaGrid.Create: X: [ -250 250 ], Y: [ -250 250 ]
 LOG  : General      f:0> World seed: omCkiXSHbnMkzWjp 614891703
-LOG  : General      f:0> IsoMetaGrid.Create: finished scanning directories in 0.16 seconds
+LOG  : General      f:0> IsoMetaGrid.Create: finished scanning directories in 0.102 seconds
 LOG  : General      f:0> IsoMetaGrid.Create: begin loading
 LOG  : Lua          f:0> ### Merging distribution tables ###
 LOG  : Lua          f:0> Merging distribution addon #	1
@@ -3348,7 +3348,7 @@ LOG  : General      f:0> loadAnimalDefinitions end
 LOG  : General      f:0> GameTime.init() and load() start
 LOG  : General      f:0> GameTime.init() and load() end
 LOG  : General      f:0> ZomboidRadio.Init() start
-LOG  : Lua          f:0> scriptmanager = zombie.radio.scripting.RadioScriptManager@78546707, isNewGame = false
+LOG  : Lua          f:0> scriptmanager = zombie.radio.scripting.RadioScriptManager@5889dd31, isNewGame = false
 LOG  : Lua          f:0> name = Automated Emergency Broadcast System, freq = 102400, cat = Emergency, uuid = EMRG-711984
 LOG  : Lua          f:0> Found radio channel: Automated Emergency Broadcast System, freq = EMRG-711984, freqcheck = 102400, multi = 1
 LOG  : General      f:0> Radio Loading channels...
@@ -3367,7 +3367,7 @@ LOG  : General      f:0> GameEntityManager.Init() start
 LOG  : General      f:0> GameEntityManager.Init() end
 LOG  : General      f:0> PersistentOutfits.init() start
 LOG  : General      f:0> PersistentOutfits.init() end
-LOG  : General      f:0> IsoMetaGrid.Create: finished loading in 5.184 seconds
+LOG  : General      f:0> IsoMetaGrid.Create: finished loading in 3.596 seconds
 ERROR: Lua          f:0 at Lua(Vanilla).handleMannequinZone    > ERROR: Mannequin zone missing properties in media/maps/Muldraugh, KY/objects.lua coords: 13583, 1299, 0
 WARN : Lua          f:0 at Lua(Vanilla).doMapZones             > can't find map objects file: media/maps/Riverside, KY/objects.lua
 WARN : Lua          f:0 at Lua(Vanilla).doMapZones             > can't find map objects file: media/maps/Irvington, KY/objects.lua
@@ -3750,8 +3750,8 @@ LOG  : Lua          f:0> C feedingTrough: added luaObject 10827,9740,0
 LOG  : General      f:0> CGlobalObjects: newSystem rainbarrel
 LOG  : General      f:0> CGlobalObjects: newSystem trap
 LOG  : General      f:0> GlobalObjects.initSystems() end
-LOG  : General      f:0> [24-09-26 17:07:52.617][info] Init chat system....
-LOG  : General      f:0> [24-09-26 17:07:52.617][info] Mode: single player.
+LOG  : General      f:0> [24-09-26 17:16:23.239][info] Init chat system....
+LOG  : General      f:0> [24-09-26 17:16:23.239][info] Mode: single player.
 LOG  : General      f:0> bWaitForAssetLoadingToFinish2 start
 ERROR: General      f:0 at ImportedSkeleton.collectBoneFrames  > Could not find bone index for node name: "Body"
 ERROR: General      f:0 at ImportedSkeleton.collectBoneFrames  > Could not find bone index for node name: "Body"
@@ -3761,7 +3761,7 @@ LOG  : General      f:0> FBORenderChunkManager.gameLoaded() start
 LOG  : General      f:0> FBORenderChunkManager.gameLoaded() end
 LOG  : General      f:0> Bullet.initPhysicsMeshes() start
 LOG  : General      f:0> Bullet.initPhysicsMeshes() end
-LOG  : General      f:0> game loading took 25 seconds
+LOG  : General      f:0> game loading took 23 seconds
 LOG  : General      f:0> STATE: exit zombie.gameStates.GameLoadingState
 LOG  : Lua          f:0> 1 players found
 LOG  : Lua          f:0> player 0 is mouse
@@ -4178,16 +4178,37 @@ LOG  : General      f:0> binkId: 3
 LOG  : Lua          f:0> [ManualSaveMod] Pause menu: SAVE GAME + LOAD GAME injected.
 LOG  : Lua          f:0> [ManualSaveMod] Pause menu: joypad integration installed.
 LOG  : Lua          f:1> [BetterBrushPicker] Installed v0.4.3 successfully.
-LOG  : Lua          f:1> [BetterBrushPicker] Texture warmup complete: 0/0 tilesets returned a sheet texture.
-LOG  : Lua          f:313> [BetterBrushPicker] Texture warmup started: 515 tilesets, 4 sheet lookups per tick.
-LOG  : Lua          f:313> [BetterBrushPicker] Direct tile enumeration found 61740 actual tile IDs across 515 tilesets (0 definition lists failed).
-LOG  : Lua          f:313> [BetterBrushPicker] Loaded 515 cached tilesets (61740 tiles); 0 tilesets remain for direct enumeration.
-LOG  : Lua          f:313> [BetterBrushPicker] All 515 tilesets loaded from persistent cache.
-LOG  : Lua          f:442> [BetterBrushPicker] Texture warmup complete: 463/515 tilesets returned a sheet texture.
-LOG  : General      f:2088> Saving worldgen params
-LOG  : General      f:2088> Saving GlobalModData
-LOG  : Lua          f:2088> removing all player data
-LOG  : Lua          f:2088> - player: 0
-LOG  : Lua          f:2088> removing all player data
-LOG  : Lua          f:2088> - player: 0
-LOG  : General      f:2088> GameThread exited.
+LOG  : Lua          f:1> [BetterBrushPicker] Texture warmup complete: 0/0 tilesets resolved through actual tile IDs.
+LOG  : Lua          f:381> [BetterBrushPicker] Direct tile enumeration found 61740 actual tile IDs across 515 tilesets (0 definition lists failed).
+LOG  : Lua          f:381> [BetterBrushPicker] Texture warmup started: 515 tilesets, 4 actual-tile lookups per tick.
+LOG  : Lua          f:381> [BetterBrushPicker] Loaded 515 cached tilesets (61740 tiles); 0 tilesets remain for direct enumeration.
+LOG  : Lua          f:381> [BetterBrushPicker] All 515 tilesets loaded from persistent cache.
+LOG  : Lua          f:510> [BetterBrushPicker] Texture warmup complete: 463/515 tilesets resolved through actual tile IDs.
+ERROR: General      f:714 at CellLoader.DoTileObjectCreation     > CellLoader> missing tile vegetation_groundcover_01_19
+ERROR: General      f:714 at CellLoader.DoTileObjectCreation     > CellLoader> missing tile vegetation_groundcover_01_18
+ERROR: General      f:714 at CellLoader.DoTileObjectCreation     > CellLoader> missing tile vegetation_groundcover_01_20
+ERROR: General      f:714 at CellLoader.DoTileObjectCreation     > CellLoader> missing tile vegetation_groundcover_01_22
+ERROR: General      f:714 at CellLoader.DoTileObjectCreation     > CellLoader> missing tile vegetation_groundcover_01_23
+ERROR: General      f:714 at CellLoader.DoTileObjectCreation     > CellLoader> missing tile vegetation_groundcover_01_21
+LOG  : Lua          f:729> farming: created farming/houseplant luaObject from pre-existing isoObject 10835,9824
+LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10841,9822
+LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10841,9823
+LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10842,9822
+LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10842,9823
+LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10845,9818
+LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10845,9819
+LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10845,9821
+LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10845,9822
+LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10845,9823
+LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10846,9818
+LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10846,9819
+LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10846,9821
+LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10846,9822
+LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10846,9823
+LOG  : General      f:1568> Saving worldgen params
+LOG  : General      f:1568> Saving GlobalModData
+LOG  : Lua          f:1568> removing all player data
+LOG  : Lua          f:1568> - player: 0
+LOG  : Lua          f:1568> removing all player data
+LOG  : Lua          f:1568> - player: 0
+LOG  : General      f:1568> GameThread exited.
