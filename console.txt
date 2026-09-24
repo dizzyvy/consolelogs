@@ -1,12 +1,12 @@
-LOG  : General      f:0> 24-09-2026 19:51:48
+LOG  : General      f:0> 24-09-2026 19:56:52
 LOG  : General      f:0> SLF4J(I): Attempting to load provider "zombie.core.logger.Slf4jBridge" specified via "slf4j.provider" system property
 LOG  : General      f:0> ===== System specs =====
 LOG  : General      f:0> CPU: Apple M3, vendor: Apple Inc., cores: 8, threads: 8
 LOG  : General      f:0> RAM: 16384 Mb
 LOG  : General      f:0> Base board: MC8H4, vendor: Apple Inc.
 LOG  : General      f:0> GPU: Apple M3, vendor: Apple (0x106b), video memory: 0 Mb, driver: unknown
-LOG  : General      f:0> Disk info: 228.27 Gb, free space: 31.12 Gb, usable space: 31.12 Gb
-WARN : General      f:0 at SysctlUtilFFM.sysctlbyname          > Failed sysctl call: MemorySegment{ kind: native, address: 0xc04e9b300, byteSize: 14 }, Error code: 12
+LOG  : General      f:0> Disk info: 228.27 Gb, free space: 31.11 Gb, usable space: 31.11 Gb
+WARN : General      f:0 at SysctlUtilFFM.sysctlbyname          > Failed sysctl call: MemorySegment{ kind: native, address: 0xc6e8872b0, byteSize: 14 }, Error code: 12
 LOG  : General      f:0> OS: Mac OS X, version: 26.6.2, arch: aarch64, build: 25G83
 LOG  : General      f:0> JVM (free: 164 Mb, max: 3072 Mb, total available: 256 Mb)
 LOG  : General      f:0> ========================
@@ -81,20 +81,20 @@ LOG  : General      f:0> Desktop resolution 1470x956
 LOG  : General      f:0> Initial resolution 1470x814 fullScreen=false
 LOG  : General      f:0> OpenGL 1.5 buffer objects supported
 LOG  : General      f:0> VSync: OFF
-LOG  : General      f:0> 1790293909333 fmod: Java loging: OK
-LOG  : General      f:0> 1790293909334 fmod: FMOD::Studio::System::create() result: No errors.
-LOG  : General      f:0> 1790293909334 fmod: FMOD::Studio::System::getCoreSystem() result: No errors.
-LOG  : General      f:0> 1790293909334 fmod: FMOD_System_GetVersion() result: No errors.
-LOG  : General      f:0> 1790293909334 fmod: fmodintegration built with version 20309, fmod shared library version 20309
-LOG  : General      f:0> 1790293909334 fmod: System Create: OK
-LOG  : General      f:0> 1790293909334 fmod: FMOD_System_SetSoftwareFormat() result: No errors.
-LOG  : General      f:0> 1790293909496 fmod: FMOD::Studio::System::Initialize() result: No errors.
-LOG  : General      f:0> 1790293909496 fmod: Creating DSP for capture sound
-LOG  : General      f:0> 1790293909496 fmod: FMOD_System_CreateDSP() result: No errors.
-LOG  : General      f:0> 1790293909496 fmod: FMOD_DSP_SetBypass() result: No errors.
-LOG  : General      f:0> 1790293909496 fmod: FMOD_System_GetMasterChannelGroup() result: No errors.
-LOG  : General      f:0> 1790293909496 fmod: FMOD_ChannelGroup_AddDSP() result: No errors.
-LOG  : General      f:0> 1790293909496 fmod: FMOD_System_Set3DSettings() result: No errors.
+LOG  : General      f:0> 1790294213444 fmod: Java loging: OK
+LOG  : General      f:0> 1790294213445 fmod: FMOD::Studio::System::create() result: No errors.
+LOG  : General      f:0> 1790294213445 fmod: FMOD::Studio::System::getCoreSystem() result: No errors.
+LOG  : General      f:0> 1790294213445 fmod: FMOD_System_GetVersion() result: No errors.
+LOG  : General      f:0> 1790294213445 fmod: fmodintegration built with version 20309, fmod shared library version 20309
+LOG  : General      f:0> 1790294213445 fmod: System Create: OK
+LOG  : General      f:0> 1790294213445 fmod: FMOD_System_SetSoftwareFormat() result: No errors.
+LOG  : General      f:0> 1790294213629 fmod: FMOD::Studio::System::Initialize() result: No errors.
+LOG  : General      f:0> 1790294213629 fmod: Creating DSP for capture sound
+LOG  : General      f:0> 1790294213629 fmod: FMOD_System_CreateDSP() result: No errors.
+LOG  : General      f:0> 1790294213629 fmod: FMOD_DSP_SetBypass() result: No errors.
+LOG  : General      f:0> 1790294213630 fmod: FMOD_System_GetMasterChannelGroup() result: No errors.
+LOG  : General      f:0> 1790294213630 fmod: FMOD_ChannelGroup_AddDSP() result: No errors.
+LOG  : General      f:0> 1790294213630 fmod: FMOD_System_Set3DSettings() result: No errors.
 LOG  : General      f:0> Loading networking libraries...
 LOG  : General      f:0> Loading steam_api...
 LOG  : General      f:0> Loading RakNet...
@@ -3028,8 +3028,8 @@ WARN : Lua          f:0 at Lua(Vanilla).ISAnimalContextMenu.lua> require("Buildi
 WARN : Lua          f:0 at Lua(Vanilla).TakeSameType.lua       > require("ISUI/InventoryWindow/ISLootWindowControlHandler") failed
 WARN : Lua          f:0 at Lua(Vanilla).FloorTakeSameType.lua  > require("ISUI/InventoryWindow/ISLootWindowControlHandler") failed
 WARN : Lua          f:0 at Lua(Vanilla).testUI.lua             > require("pzapi/ui/ui") failed
-LOG  : Lua          f:0> E150 TEST:	table 0x1625209097{ activeArmor=closure 0x1528594986 }
-LOG  : Lua          f:0> E150 ACTIVE ARMOR TEST:	closure 0x1528594986
+LOG  : Lua          f:0> E150 TEST:	table 0x1505394455{ activeArmor=closure 0x946155568 }
+LOG  : Lua          f:0> E150 ACTIVE ARMOR TEST:	closure 0x946155568
 LOG  : Lua          f:0> TRUE LINE OF SIGHT BUILD 42 WORKSHOP OPTIMIZED 2026-09-18 HAS LOADED
 LOG  : Lua          f:0> [ManualSaveMod] Core/Config.lua loaded.
 LOG  : Lua          f:0> [ManualSaveMod] Core/EditMods.lua loaded.
@@ -3167,7 +3167,7 @@ LOG  : General      f:0> MapGroup 8/8
 LOG  : General      f:0>   challengemaps/KnoxCounty
 LOG  : General      f:0> -----
 LOG  : General      f:0> STATE: exit zombie.gameStates.MainScreenState
-LOG  : General      f:0> LOADED UP A TOTAL OF 4586 TEXTURES
+LOG  : General      f:0> LOADED UP A TOTAL OF 4841 TEXTURES
 LOG  : General      f:0> STATE: exit zombie.gameStates.LoadingQueueState
 LOG  : General      f:0> BLANK OVERLAY TEXTURE. Set it to "none".: appliances_01_30
 LOG  : General      f:0> BLANK OVERLAY TEXTURE. Set it to "none".: floors_overlay_wood_01_32
@@ -3321,7 +3321,7 @@ LOG  : General      f:0> Looking in these map folders:
 LOG  : General      f:0> <End of map-folders list>
 LOG  : General      f:0> IsoMetaGrid.Create: X: [ -250 250 ], Y: [ -250 250 ]
 LOG  : General      f:0> World seed: AveHCzgPbebXKeXG -919566246
-LOG  : General      f:0> IsoMetaGrid.Create: finished scanning directories in 0.124 seconds
+LOG  : General      f:0> IsoMetaGrid.Create: finished scanning directories in 0.106 seconds
 LOG  : General      f:0> IsoMetaGrid.Create: begin loading
 LOG  : Lua          f:0> ### Merging distribution tables ###
 LOG  : Lua          f:0> Merging distribution addon #	1
@@ -3348,7 +3348,7 @@ LOG  : General      f:0> loadAnimalDefinitions end
 LOG  : General      f:0> GameTime.init() and load() start
 LOG  : General      f:0> GameTime.init() and load() end
 LOG  : General      f:0> ZomboidRadio.Init() start
-LOG  : Lua          f:0> scriptmanager = zombie.radio.scripting.RadioScriptManager@37119b8, isNewGame = false
+LOG  : Lua          f:0> scriptmanager = zombie.radio.scripting.RadioScriptManager@348a83ce, isNewGame = false
 LOG  : Lua          f:0> name = Automated Emergency Broadcast System, freq = 105600, cat = Emergency, uuid = EMRG-711984
 LOG  : Lua          f:0> Found radio channel: Automated Emergency Broadcast System, freq = EMRG-711984, freqcheck = 105600, multi = 1
 LOG  : General      f:0> Radio Loading channels...
@@ -3367,7 +3367,7 @@ LOG  : General      f:0> GameEntityManager.Init() start
 LOG  : General      f:0> GameEntityManager.Init() end
 LOG  : General      f:0> PersistentOutfits.init() start
 LOG  : General      f:0> PersistentOutfits.init() end
-LOG  : General      f:0> IsoMetaGrid.Create: finished loading in 3.415 seconds
+LOG  : General      f:0> IsoMetaGrid.Create: finished loading in 4.471 seconds
 ERROR: Lua          f:0 at Lua(Vanilla).handleMannequinZone    > ERROR: Mannequin zone missing properties in media/maps/Muldraugh, KY/objects.lua coords: 13583, 1299, 0
 WARN : Lua          f:0 at Lua(Vanilla).doMapZones             > can't find map objects file: media/maps/Riverside, KY/objects.lua
 WARN : Lua          f:0 at Lua(Vanilla).doMapZones             > can't find map objects file: media/maps/Irvington, KY/objects.lua
@@ -3528,8 +3528,8 @@ LOG  : General      f:0> CGlobalObjects: newSystem feedingTrough
 LOG  : General      f:0> CGlobalObjects: newSystem rainbarrel
 LOG  : General      f:0> CGlobalObjects: newSystem trap
 LOG  : General      f:0> GlobalObjects.initSystems() end
-LOG  : General      f:0> [24-09-26 19:52:22.423][info] Init chat system....
-LOG  : General      f:0> [24-09-26 19:52:22.423][info] Mode: single player.
+LOG  : General      f:0> [24-09-26 19:57:27.422][info] Init chat system....
+LOG  : General      f:0> [24-09-26 19:57:27.422][info] Mode: single player.
 LOG  : General      f:0> bWaitForAssetLoadingToFinish2 start
 ERROR: General      f:0 at ImportedSkeleton.collectBoneFrames  > Could not find bone index for node name: "Body"
 ERROR: General      f:0 at ImportedSkeleton.collectBoneFrames  > Could not find bone index for node name: "Body"
@@ -3955,94 +3955,43 @@ LOG  : General      f:0> Cheats enabled/disabled on game start in lua from the f
 LOG  : General      f:0> binkId: 3
 LOG  : Lua          f:0> [ManualSaveMod] Pause menu: SAVE GAME + LOAD GAME injected.
 LOG  : Lua          f:0> [ManualSaveMod] Pause menu: joypad integration installed.
-LOG  : Lua          f:1> [BetterBrushPicker] Installed v0.4.6 successfully.
-LOG  : Lua          f:1> [BetterBrushPicker] Version marker: BetterBrushPicker source v0.4.6
-LOG  : Lua          f:1> [BetterBrushPicker] Texture warmup complete: 0/0 tilesets resolved through actual tile IDs.
-LOG  : Lua          f:519> [BetterBrushPicker] Direct tile enumeration found 61740 actual tile IDs across 515 tilesets (0 definition lists failed).
-LOG  : Lua          f:519> [BetterBrushPicker] Texture warmup started: 515 tilesets, 4 actual-tile lookups per tick.
-LOG  : Lua          f:519> [BetterBrushPicker] Loaded 515 cached tilesets (61740 tiles); 0 tilesets remain for direct enumeration.
-LOG  : Lua          f:519> [BetterBrushPicker] All 515 tilesets loaded from persistent cache.
-ERROR: General      f:520 at KahluaThread.flushErrorMessage      > -------------------------------------------------------------
-attempted index: getTexture of non-table: zombie.iso.sprite.IsoDirectionFrame@26e9f7c7
-ERROR: General      f:520 at KahluaThread.flushErrorMessage      > dumping Lua stack trace
+LOG  : Lua          f:1> [BetterBrushPicker] Installed v0.5.0 successfully.
+LOG  : Lua          f:1> [BetterBrushPicker] Version marker: BetterBrushPicker source v0.5.0
+LOG  : Lua          f:1> [BetterBrushPicker] UI architecture: native ISScrollingListBox tile rows (8 tiles per row).
+LOG  : Lua          f:478> [BetterBrushPicker] Direct tile enumeration found 61740 actual tile IDs across 515 tilesets (0 definition lists failed).
+LOG  : Lua          f:478> [BetterBrushPicker] Loaded 515 cached tilesets (61740 tiles); 0 tilesets remain for direct enumeration.
+LOG  : Lua          f:478> [BetterBrushPicker] All 515 tilesets loaded from persistent cache.
+ERROR: General      f:478 at KahluaThread.flushErrorMessage      > dumping Lua stack trace
 -----------------------------------------
 STACK TRACE
 -----------------------------------------
-	Lua((MOD:Better Brush Picker)).pcall(BetterBrushPicker.lua:518)
-	Lua((MOD:Better Brush Picker)).trySpriteTextureMethods(BetterBrushPicker.lua:517)
-	Lua((MOD:Better Brush Picker)).resolveSpriteFrameTexture(BetterBrushPicker.lua:548)
-	Lua((MOD:Better Brush Picker)).resolveTileTexture(BetterBrushPicker.lua:583)
-	Lua((MOD:Better Brush Picker)).tickTextureWarmup(BetterBrushPicker.lua:663)
-	Lua((MOD:Better Brush Picker)).tick(BetterBrushPicker.lua:1501)
-ERROR: General      f:520> Lua((MOD:Better Brush Picker)).pcall> Exception thrown
-	java.lang.RuntimeException: attempted index: getTexture of non-table: zombie.iso.sprite.IsoDirectionFrame@26e9f7c7 at KahluaThread.tableget(KahluaThread.java:1430).
-	Stack trace:
-		se.krka.kahlua.vm.KahluaThread.tableget(KahluaThread.java:1430)
-		Lua((MOD:Better Brush Picker)).pcall(BetterBrushPicker.lua:518)
-		Lua((MOD:Better Brush Picker)).trySpriteTextureMethods(BetterBrushPicker.lua:517)
-		Lua((MOD:Better Brush Picker)).resolveSpriteFrameTexture(BetterBrushPicker.lua:548)
-		Lua((MOD:Better Brush Picker)).resolveTileTexture(BetterBrushPicker.lua:583)
-		Lua((MOD:Better Brush Picker)).tickTextureWarmup(BetterBrushPicker.lua:663)
-		Lua((MOD:Better Brush Picker)).tick(BetterBrushPicker.lua:1501)
-		se.krka.kahlua.vm.KahluaThread.luaMainloop(KahluaThread.java:459)
-		se.krka.kahlua.vm.KahluaThread.call(KahluaThread.java:162)
-		se.krka.kahlua.vm.KahluaThread.pcall(KahluaThread.java:1740)
-		se.krka.kahlua.stdlib.BaseLib.pcall(BaseLib.java:313)
-		se.krka.kahlua.stdlib.BaseLib.call(BaseLib.java:111)
-		se.krka.kahlua.vm.KahluaThread.callJava(KahluaThread.java:178)
-		se.krka.kahlua.vm.KahluaThread.luaMainloop(KahluaThread.java:795)
-		se.krka.kahlua.vm.KahluaThread.call(KahluaThread.java:162)
-		se.krka.kahlua.vm.KahluaThread.pcall(KahluaThread.java:1740)
-		se.krka.kahlua.vm.KahluaThread.pcallvoid(KahluaThread.java:1572)
-		se.krka.kahlua.integration.LuaCaller.pcallvoid(LuaCaller.java:60)
-		se.krka.kahlua.integration.LuaCaller.protectedCallVoid(LuaCaller.java:131)
-		zombie.Lua.Event.trigger(Event.java:55)
-		zombie.Lua.LuaEventManager.triggerEvent(LuaEventManager.java:279)
-		zombie.gameStates.IngameState.onTick(IngameState.java:1615)
-		zombie.gameStates.IngameState.updateInternal(IngameState.java:1531)
-		zombie.gameStates.IngameState.update(IngameState.java:1328)
-		zombie.gameStates.GameStateMachine.update(GameStateMachine.java:65)
-		zombie.GameWindow.logic(GameWindow.java:390)
-		zombie.GameWindow.frameStep(GameWindow.java:790)
-		zombie.GameWindow.mainThreadStep(GameWindow.java:567)
-		zombie.MainThread.mainLoop(MainThread.java:69)
-		java.base/java.lang.Thread.run(Unknown Source)
-ERROR: General      f:520 at KahluaThread.flushErrorMessage      > dumping Lua stack trace
------------------------------------------
-STACK TRACE
------------------------------------------
-	Lua((MOD:Better Brush Picker)).pcall(BetterBrushPicker.lua:518)
-	Lua((MOD:Better Brush Picker)).trySpriteTextureMethods(BetterBrushPicker.lua:517)
-	Lua((MOD:Better Brush Picker)).resolveSpriteFrameTexture(BetterBrushPicker.lua:548)
-	Lua((MOD:Better Brush Picker)).resolveTileTexture(BetterBrushPicker.lua:583)
-	Lua((MOD:Better Brush Picker)).tickTextureWarmup(BetterBrushPicker.lua:663)
-	Lua((MOD:Better Brush Picker)).tick(BetterBrushPicker.lua:1501)
-DEBUG-MODE STACK TRACE:
-	Lua((MOD:Better Brush Picker)).pcall(BetterBrushPicker.lua:518)
-	Lua((MOD:Better Brush Picker)).trySpriteTextureMethods(BetterBrushPicker.lua:517)
-	Lua((MOD:Better Brush Picker)).resolveSpriteFrameTexture(BetterBrushPicker.lua:548)
-	Lua((MOD:Better Brush Picker)).resolveTileTexture(BetterBrushPicker.lua:583)
-	Lua((MOD:Better Brush Picker)).tickTextureWarmup(BetterBrushPicker.lua:663)
-	Lua((MOD:Better Brush Picker)).tick(BetterBrushPicker.lua:1501)
-	se.krka.kahlua.vm.KahluaThread.luaMainloop(KahluaThread.java:1108)
+	Lua((MOD:Better Brush Picker)).refreshResults(BetterBrushPicker.lua:1105)
+	Lua((MOD:Better Brush Picker)).createChildren(BetterBrushPicker.lua:1071)
+	Lua(Vanilla).instantiate(ISUIElement.lua:1007)
+	Lua(Vanilla).addToUIManager(ISUIElement.lua:1367)
+	Lua((MOD:Better Brush Picker)).openPanel(BetterBrushPicker.lua:1007)
+	Lua(Vanilla).onClick(BrushToolManager.lua:45)
+	Lua(Vanilla).onMouseUp(ISButton.lua:47)
+Lua fail. Message: Object tried to call nil in refreshResults
+	se.krka.kahlua.vm.KahluaUtil.fail(KahluaUtil.java:96)
+	Lua((MOD:Better Brush Picker)).refreshResults(BetterBrushPicker.lua:1105)
+	Lua((MOD:Better Brush Picker)).createChildren(BetterBrushPicker.lua:1071)
+	Lua(Vanilla).instantiate(ISUIElement.lua:1007)
+	Lua(Vanilla).addToUIManager(ISUIElement.lua:1367)
+	Lua((MOD:Better Brush Picker)).openPanel(BetterBrushPicker.lua:1007)
+	Lua(Vanilla).onClick(BrushToolManager.lua:45)
+	Lua(Vanilla).onMouseUp(ISButton.lua:47)
+	se.krka.kahlua.vm.KahluaThread.luaMainloop(KahluaThread.java:763)
 	se.krka.kahlua.vm.KahluaThread.call(KahluaThread.java:162)
 	se.krka.kahlua.vm.KahluaThread.pcall(KahluaThread.java:1740)
-	se.krka.kahlua.stdlib.BaseLib.pcall(BaseLib.java:313)
-	se.krka.kahlua.stdlib.BaseLib.call(BaseLib.java:111)
-	se.krka.kahlua.vm.KahluaThread.callJava(KahluaThread.java:178)
-	se.krka.kahlua.vm.KahluaThread.luaMainloop(KahluaThread.java:795)
-	se.krka.kahlua.vm.KahluaThread.call(KahluaThread.java:162)
-	se.krka.kahlua.vm.KahluaThread.pcall(KahluaThread.java:1740)
-	se.krka.kahlua.vm.KahluaThread.pcallvoid(KahluaThread.java:1572)
-	se.krka.kahlua.integration.LuaCaller.pcallvoid(LuaCaller.java:60)
-	se.krka.kahlua.integration.LuaCaller.protectedCallVoid(LuaCaller.java:131)
-	zombie.Lua.Event.trigger(Event.java:55)
-	zombie.Lua.LuaEventManager.triggerEvent(LuaEventManager.java:279)
-	zombie.gameStates.IngameState.onTick(IngameState.java:1615)
-	zombie.gameStates.IngameState.updateInternal(IngameState.java:1531)
-	zombie.gameStates.IngameState.update(IngameState.java:1328)
-	zombie.gameStates.GameStateMachine.update(GameStateMachine.java:65)
-	zombie.GameWindow.logic(GameWindow.java:390)
+	se.krka.kahlua.vm.KahluaThread.pcallBoolean(KahluaThread.java:1676)
+	se.krka.kahlua.integration.LuaCaller.protectedCallBoolean(LuaCaller.java:96)
+	zombie.ui.UIElement.onMouseUp(UIElement.java:1411)
+	zombie.ui.UIElement.onMouseUp(UIElement.java:1384)
+	zombie.ui.UIElement.onConsumeMouseButtonUp(UIElement.java:1474)
+	zombie.ui.UIManager.updateMouseButtons(UIManager.java:747)
+	zombie.ui.UIManager.update(UIManager.java:621)
+	zombie.GameWindow.logic(GameWindow.java:347)
 	zombie.GameWindow.frameStep(GameWindow.java:790)
 	zombie.GameWindow.mainThreadStep(GameWindow.java:567)
 	zombie.MainThread.mainLoop(MainThread.java:69)
