@@ -1,12 +1,12 @@
-LOG  : General      f:0> 24-09-2026 17:15:48
+LOG  : General      f:0> 24-09-2026 19:45:19
 LOG  : General      f:0> SLF4J(I): Attempting to load provider "zombie.core.logger.Slf4jBridge" specified via "slf4j.provider" system property
 LOG  : General      f:0> ===== System specs =====
 LOG  : General      f:0> CPU: Apple M3, vendor: Apple Inc., cores: 8, threads: 8
 LOG  : General      f:0> RAM: 16384 Mb
 LOG  : General      f:0> Base board: MC8H4, vendor: Apple Inc.
 LOG  : General      f:0> GPU: Apple M3, vendor: Apple (0x106b), video memory: 0 Mb, driver: unknown
-LOG  : General      f:0> Disk info: 228.27 Gb, free space: 31.21 Gb, usable space: 31.21 Gb
-WARN : General      f:0 at SysctlUtilFFM.sysctlbyname          > Failed sysctl call: MemorySegment{ kind: native, address: 0xa71263dd0, byteSize: 14 }, Error code: 12
+LOG  : General      f:0> Disk info: 228.27 Gb, free space: 31.12 Gb, usable space: 31.12 Gb
+WARN : General      f:0 at SysctlUtilFFM.sysctlbyname          > Failed sysctl call: MemorySegment{ kind: native, address: 0x892db7cd0, byteSize: 14 }, Error code: 12
 LOG  : General      f:0> OS: Mac OS X, version: 26.6.2, arch: aarch64, build: 25G83
 LOG  : General      f:0> JVM (free: 164 Mb, max: 3072 Mb, total available: 256 Mb)
 LOG  : General      f:0> ========================
@@ -81,20 +81,20 @@ LOG  : General      f:0> Desktop resolution 1470x956
 LOG  : General      f:0> Initial resolution 1470x814 fullScreen=false
 LOG  : General      f:0> OpenGL 1.5 buffer objects supported
 LOG  : General      f:0> VSync: OFF
-LOG  : General      f:0> 1790284549900 fmod: Java loging: OK
-LOG  : General      f:0> 1790284549901 fmod: FMOD::Studio::System::create() result: No errors.
-LOG  : General      f:0> 1790284549901 fmod: FMOD::Studio::System::getCoreSystem() result: No errors.
-LOG  : General      f:0> 1790284549901 fmod: FMOD_System_GetVersion() result: No errors.
-LOG  : General      f:0> 1790284549901 fmod: fmodintegration built with version 20309, fmod shared library version 20309
-LOG  : General      f:0> 1790284549901 fmod: System Create: OK
-LOG  : General      f:0> 1790284549901 fmod: FMOD_System_SetSoftwareFormat() result: No errors.
-LOG  : General      f:0> 1790284550067 fmod: FMOD::Studio::System::Initialize() result: No errors.
-LOG  : General      f:0> 1790284550067 fmod: Creating DSP for capture sound
-LOG  : General      f:0> 1790284550067 fmod: FMOD_System_CreateDSP() result: No errors.
-LOG  : General      f:0> 1790284550067 fmod: FMOD_DSP_SetBypass() result: No errors.
-LOG  : General      f:0> 1790284550068 fmod: FMOD_System_GetMasterChannelGroup() result: No errors.
-LOG  : General      f:0> 1790284550068 fmod: FMOD_ChannelGroup_AddDSP() result: No errors.
-LOG  : General      f:0> 1790284550068 fmod: FMOD_System_Set3DSettings() result: No errors.
+LOG  : General      f:0> 1790293520622 fmod: Java loging: OK
+LOG  : General      f:0> 1790293520623 fmod: FMOD::Studio::System::create() result: No errors.
+LOG  : General      f:0> 1790293520623 fmod: FMOD::Studio::System::getCoreSystem() result: No errors.
+LOG  : General      f:0> 1790293520623 fmod: FMOD_System_GetVersion() result: No errors.
+LOG  : General      f:0> 1790293520623 fmod: fmodintegration built with version 20309, fmod shared library version 20309
+LOG  : General      f:0> 1790293520623 fmod: System Create: OK
+LOG  : General      f:0> 1790293520623 fmod: FMOD_System_SetSoftwareFormat() result: No errors.
+LOG  : General      f:0> 1790293520812 fmod: FMOD::Studio::System::Initialize() result: No errors.
+LOG  : General      f:0> 1790293520812 fmod: Creating DSP for capture sound
+LOG  : General      f:0> 1790293520812 fmod: FMOD_System_CreateDSP() result: No errors.
+LOG  : General      f:0> 1790293520812 fmod: FMOD_DSP_SetBypass() result: No errors.
+LOG  : General      f:0> 1790293520812 fmod: FMOD_System_GetMasterChannelGroup() result: No errors.
+LOG  : General      f:0> 1790293520812 fmod: FMOD_ChannelGroup_AddDSP() result: No errors.
+LOG  : General      f:0> 1790293520812 fmod: FMOD_System_Set3DSettings() result: No errors.
 LOG  : General      f:0> Loading networking libraries...
 LOG  : General      f:0> Loading steam_api...
 LOG  : General      f:0> Loading RakNet...
@@ -3028,8 +3028,8 @@ WARN : Lua          f:0 at Lua(Vanilla).ISAnimalContextMenu.lua> require("Buildi
 WARN : Lua          f:0 at Lua(Vanilla).TakeSameType.lua       > require("ISUI/InventoryWindow/ISLootWindowControlHandler") failed
 WARN : Lua          f:0 at Lua(Vanilla).FloorTakeSameType.lua  > require("ISUI/InventoryWindow/ISLootWindowControlHandler") failed
 WARN : Lua          f:0 at Lua(Vanilla).testUI.lua             > require("pzapi/ui/ui") failed
-LOG  : Lua          f:0> E150 TEST:	table 0x1505394455{ activeArmor=closure 0x946155568 }
-LOG  : Lua          f:0> E150 ACTIVE ARMOR TEST:	closure 0x946155568
+LOG  : Lua          f:0> E150 TEST:	table 0x260587829{ activeArmor=closure 0x65112260 }
+LOG  : Lua          f:0> E150 ACTIVE ARMOR TEST:	closure 0x65112260
 LOG  : Lua          f:0> TRUE LINE OF SIGHT BUILD 42 WORKSHOP OPTIMIZED 2026-09-18 HAS LOADED
 LOG  : Lua          f:0> [ManualSaveMod] Core/Config.lua loaded.
 LOG  : Lua          f:0> [ManualSaveMod] Core/EditMods.lua loaded.
@@ -3167,7 +3167,7 @@ LOG  : General      f:0> MapGroup 8/8
 LOG  : General      f:0>   challengemaps/KnoxCounty
 LOG  : General      f:0> -----
 LOG  : General      f:0> STATE: exit zombie.gameStates.MainScreenState
-LOG  : General      f:0> LOADED UP A TOTAL OF 4841 TEXTURES
+LOG  : General      f:0> LOADED UP A TOTAL OF 4636 TEXTURES
 LOG  : General      f:0> STATE: exit zombie.gameStates.LoadingQueueState
 LOG  : General      f:0> BLANK OVERLAY TEXTURE. Set it to "none".: appliances_01_30
 LOG  : General      f:0> BLANK OVERLAY TEXTURE. Set it to "none".: floors_overlay_wood_01_32
@@ -3320,8 +3320,8 @@ LOG  : General      f:0> IsoMetaGrid.Create: begin scanning directories
 LOG  : General      f:0> Looking in these map folders:
 LOG  : General      f:0> <End of map-folders list>
 LOG  : General      f:0> IsoMetaGrid.Create: X: [ -250 250 ], Y: [ -250 250 ]
-LOG  : General      f:0> World seed: omCkiXSHbnMkzWjp 614891703
-LOG  : General      f:0> IsoMetaGrid.Create: finished scanning directories in 0.102 seconds
+LOG  : General      f:0> World seed: AveHCzgPbebXKeXG -919566246
+LOG  : General      f:0> IsoMetaGrid.Create: finished scanning directories in 0.109 seconds
 LOG  : General      f:0> IsoMetaGrid.Create: begin loading
 LOG  : Lua          f:0> ### Merging distribution tables ###
 LOG  : Lua          f:0> Merging distribution addon #	1
@@ -3348,9 +3348,9 @@ LOG  : General      f:0> loadAnimalDefinitions end
 LOG  : General      f:0> GameTime.init() and load() start
 LOG  : General      f:0> GameTime.init() and load() end
 LOG  : General      f:0> ZomboidRadio.Init() start
-LOG  : Lua          f:0> scriptmanager = zombie.radio.scripting.RadioScriptManager@5889dd31, isNewGame = false
-LOG  : Lua          f:0> name = Automated Emergency Broadcast System, freq = 102400, cat = Emergency, uuid = EMRG-711984
-LOG  : Lua          f:0> Found radio channel: Automated Emergency Broadcast System, freq = EMRG-711984, freqcheck = 102400, multi = 1
+LOG  : Lua          f:0> scriptmanager = zombie.radio.scripting.RadioScriptManager@5e3a39b1, isNewGame = false
+LOG  : Lua          f:0> name = Automated Emergency Broadcast System, freq = 105600, cat = Emergency, uuid = EMRG-711984
+LOG  : Lua          f:0> Found radio channel: Automated Emergency Broadcast System, freq = EMRG-711984, freqcheck = 105600, multi = 1
 LOG  : General      f:0> Radio Loading channels...
 LOG  : General      f:0> ZomboidRadio.Init() end
 LOG  : General      f:0> GlobalModData.init() start
@@ -3361,13 +3361,13 @@ LOG  : General      f:0> ErosionGlobals.Boot() start
 LOG  : General      f:0> ErosionGlobals.Boot() end
 LOG  : General      f:0> WorldDictionary.init() start
 LOG  : General      f:0> WorldDictionary: Checking dictionary...
-LOG  : General      f:0> Loading WorldDictionary:/Users/maddythwaites/Zomboid/Saves/Sandbox/2026-09-24_11-59-31/WorldDictionary.bin
+LOG  : General      f:0> Loading WorldDictionary:/Users/maddythwaites/Zomboid/Saves/Sandbox/2026-09-24_19-40-53/WorldDictionary.bin
 LOG  : General      f:0> WorldDictionary.init() end
 LOG  : General      f:0> GameEntityManager.Init() start
 LOG  : General      f:0> GameEntityManager.Init() end
 LOG  : General      f:0> PersistentOutfits.init() start
 LOG  : General      f:0> PersistentOutfits.init() end
-LOG  : General      f:0> IsoMetaGrid.Create: finished loading in 3.596 seconds
+LOG  : General      f:0> IsoMetaGrid.Create: finished loading in 4.832 seconds
 ERROR: Lua          f:0 at Lua(Vanilla).handleMannequinZone    > ERROR: Mannequin zone missing properties in media/maps/Muldraugh, KY/objects.lua coords: 13583, 1299, 0
 WARN : Lua          f:0 at Lua(Vanilla).doMapZones             > can't find map objects file: media/maps/Riverside, KY/objects.lua
 WARN : Lua          f:0 at Lua(Vanilla).doMapZones             > can't find map objects file: media/maps/Irvington, KY/objects.lua
@@ -3386,7 +3386,7 @@ ERROR: General      f:0 at IsoMetaGrid.load                    > invalid room me
 ERROR: General      f:0 at IsoMetaGrid.load                    > invalid room metaID #327914 in cell 25,33 while reading map_meta.bin
 ERROR: General      f:0 at IsoMetaGrid.load                    > invalid room metaID #327911 in cell 25,33 while reading map_meta.bin
 ERROR: General      f:0 at IsoMetaGrid.load                    > invalid room metaID #655594 in cell 25,33 while reading map_meta.bin
-LOG  : General      f:0> loading 8945 zones from map_zone.bin
+LOG  : General      f:0> loading 8867 zones from map_zone.bin
 LOG  : General      f:0> loading 121 zones from map_animals.bin
 LOG  : General      f:0> Max #ZONES on one chunk is 27
 LOG  : General      f:0> triggerEvent OnLoadedMapZones
@@ -3455,303 +3455,81 @@ LOG  : General      f:0> triggerEvent OnGameTimeLoaded
 LOG  : General      f:0> GlobalObjects.initSystems() start
 LOG  : General      f:0> SGlobalObjects: newSystem campfire
 LOG  : General      f:0> SGlobalObjects: newSystem farming
-LOG  : Lua          f:0> farming: added luaObject 10835,9821,0
-LOG  : Lua          f:0> farming: added luaObject 10835,9822,0
-LOG  : Lua          f:0> farming: added luaObject 10835,9823,0
-LOG  : Lua          f:0> farming: added luaObject 10838,9822,0
-LOG  : Lua          f:0> farming: added luaObject 10838,9823,0
-LOG  : Lua          f:0> farming: added luaObject 10839,9822,0
-LOG  : Lua          f:0> farming: added luaObject 10839,9823,0
-LOG  : Lua          f:0> farming: added luaObject 10835,9813,0
-LOG  : Lua          f:0> farming: added luaObject 10835,9814,0
-LOG  : Lua          f:0> farming: added luaObject 10836,9813,0
-LOG  : Lua          f:0> farming: added luaObject 10836,9814,0
-LOG  : Lua          f:0> farming: added luaObject 10837,9813,0
-LOG  : Lua          f:0> farming: added luaObject 10837,9814,0
-LOG  : Lua          f:0> farming: added luaObject 10838,9813,0
-LOG  : Lua          f:0> farming: added luaObject 10839,9813,0
-LOG  : Lua          f:0> farming: added luaObject 10826,9809,0
-LOG  : Lua          f:0> farming: added luaObject 10826,9810,0
-LOG  : Lua          f:0> farming: added luaObject 10826,9811,0
-LOG  : Lua          f:0> farming: added luaObject 10826,9812,0
-LOG  : Lua          f:0> farming: added luaObject 10827,9809,0
-LOG  : Lua          f:0> farming: added luaObject 10827,9810,0
-LOG  : Lua          f:0> farming: added luaObject 10827,9811,0
-LOG  : Lua          f:0> farming: added luaObject 10827,9812,0
-LOG  : Lua          f:0> farming: added luaObject 10828,9812,0
-LOG  : Lua          f:0> farming: added luaObject 10829,9812,0
-LOG  : Lua          f:0> farming: added luaObject 10811,9744,0
-LOG  : Lua          f:0> farming: added luaObject 10811,9746,0
-LOG  : Lua          f:0> farming: added luaObject 10811,9747,0
-LOG  : Lua          f:0> farming: added luaObject 10812,9744,0
-LOG  : Lua          f:0> farming: added luaObject 10812,9746,0
-LOG  : Lua          f:0> farming: added luaObject 10812,9747,0
-LOG  : Lua          f:0> farming: added luaObject 10814,9744,0
-LOG  : Lua          f:0> farming: added luaObject 10814,9745,0
-LOG  : Lua          f:0> farming: added luaObject 10814,9746,0
-LOG  : Lua          f:0> farming: added luaObject 10815,9744,0
-LOG  : Lua          f:0> farming: added luaObject 10815,9745,0
-LOG  : Lua          f:0> farming: added luaObject 10815,9746,0
-LOG  : Lua          f:0> farming: added luaObject 10811,9737,0
-LOG  : Lua          f:0> farming: added luaObject 10811,9738,0
-LOG  : Lua          f:0> farming: added luaObject 10811,9740,0
-LOG  : Lua          f:0> farming: added luaObject 10811,9741,0
-LOG  : Lua          f:0> farming: added luaObject 10811,9743,0
-LOG  : Lua          f:0> farming: added luaObject 10812,9737,0
-LOG  : Lua          f:0> farming: added luaObject 10812,9738,0
-LOG  : Lua          f:0> farming: added luaObject 10812,9740,0
-LOG  : Lua          f:0> farming: added luaObject 10812,9741,0
-LOG  : Lua          f:0> farming: added luaObject 10812,9743,0
-LOG  : Lua          f:0> farming: added luaObject 10814,9738,0
-LOG  : Lua          f:0> farming: added luaObject 10814,9739,0
-LOG  : Lua          f:0> farming: added luaObject 10814,9740,0
-LOG  : Lua          f:0> farming: added luaObject 10815,9738,0
-LOG  : Lua          f:0> farming: added luaObject 10815,9739,0
-LOG  : Lua          f:0> farming: added luaObject 10815,9740,0
-LOG  : Lua          f:0> farming: added luaObject 10788,9811,0
-LOG  : Lua          f:0> farming: added luaObject 10789,9811,0
-LOG  : Lua          f:0> farming: added luaObject 10768,9789,0
-LOG  : Lua          f:0> farming: added luaObject 10768,9790,0
-LOG  : Lua          f:0> farming: added luaObject 10768,9791,0
-LOG  : Lua          f:0> farming: added luaObject 10769,9789,0
-LOG  : Lua          f:0> farming: added luaObject 10770,9789,0
-LOG  : Lua          f:0> farming: added luaObject 10770,9790,0
-LOG  : Lua          f:0> farming: added luaObject 10770,9791,0
-LOG  : Lua          f:0> farming: added luaObject 10762,9789,0
-LOG  : Lua          f:0> farming: added luaObject 10762,9790,0
-LOG  : Lua          f:0> farming: added luaObject 10762,9791,0
-LOG  : Lua          f:0> farming: added luaObject 10763,9789,0
-LOG  : Lua          f:0> farming: added luaObject 10763,9790,0
-LOG  : Lua          f:0> farming: added luaObject 10763,9791,0
-LOG  : Lua          f:0> farming: added luaObject 10764,9789,0
-LOG  : Lua          f:0> farming: added luaObject 10764,9790,0
-LOG  : Lua          f:0> farming: added luaObject 10764,9791,0
-LOG  : Lua          f:0> farming: added luaObject 10765,9789,0
-LOG  : Lua          f:0> farming: added luaObject 10766,9789,0
-LOG  : Lua          f:0> farming: added luaObject 10766,9790,0
-LOG  : Lua          f:0> farming: added luaObject 10766,9791,0
-LOG  : Lua          f:0> farming: added luaObject 10767,9789,0
-LOG  : Lua          f:0> farming: added luaObject 10767,9790,0
-LOG  : Lua          f:0> farming: added luaObject 10767,9791,0
-LOG  : Lua          f:0> farming: added luaObject 10745,9752,0
-LOG  : Lua          f:0> farming: added luaObject 10745,9754,0
-LOG  : Lua          f:0> farming: added luaObject 10745,9755,0
-LOG  : Lua          f:0> farming: added luaObject 10745,9756,0
-LOG  : Lua          f:0> farming: added luaObject 10745,9757,0
-LOG  : Lua          f:0> farming: added luaObject 10744,9745,0
-LOG  : Lua          f:0> farming: added luaObject 10745,9745,0
-LOG  : Lua          f:0> farming: added luaObject 10745,9746,0
-LOG  : Lua          f:0> farming: added luaObject 10745,9747,0
-LOG  : Lua          f:0> farming: added luaObject 10745,9748,0
-LOG  : Lua          f:0> farming: added luaObject 10745,9749,0
-LOG  : Lua          f:0> farming: added luaObject 10745,9750,0
-LOG  : Lua          f:0> farming: added luaObject 10745,9751,0
-LOG  : Lua          f:0> farming: added luaObject 10744,9723,0
-LOG  : Lua          f:0> farming: added luaObject 10744,9725,0
-LOG  : Lua          f:0> farming: added luaObject 10744,9727,0
-LOG  : Lua          f:0> farming: added luaObject 10744,9713,0
-LOG  : Lua          f:0> farming: added luaObject 10744,9715,0
-LOG  : Lua          f:0> farming: added luaObject 10744,9717,0
-LOG  : Lua          f:0> farming: added luaObject 10736,9809,0
-LOG  : Lua          f:0> farming: added luaObject 10736,9810,0
-LOG  : Lua          f:0> farming: added luaObject 10736,9811,0
-LOG  : Lua          f:0> farming: added luaObject 10736,9812,0
-LOG  : Lua          f:0> farming: added luaObject 10737,9809,0
-LOG  : Lua          f:0> farming: added luaObject 10737,9810,0
-LOG  : Lua          f:0> farming: added luaObject 10737,9811,0
-LOG  : Lua          f:0> farming: added luaObject 10737,9812,0
-LOG  : Lua          f:0> farming: added luaObject 10736,9745,0
-LOG  : Lua          f:0> farming: added luaObject 10737,9745,0
-LOG  : Lua          f:0> farming: added luaObject 10738,9745,0
-LOG  : Lua          f:0> farming: added luaObject 10739,9745,0
-LOG  : Lua          f:0> farming: added luaObject 10740,9745,0
-LOG  : Lua          f:0> farming: added luaObject 10741,9745,0
-LOG  : Lua          f:0> farming: added luaObject 10742,9745,0
-LOG  : Lua          f:0> farming: added luaObject 10743,9745,0
-LOG  : Lua          f:0> farming: added luaObject 10736,9722,0
-LOG  : Lua          f:0> farming: added luaObject 10736,9718,0
-LOG  : Lua          f:0> farming: added luaObject 10736,9708,0
-LOG  : Lua          f:0> farming: added luaObject 10737,9708,0
-LOG  : Lua          f:0> farming: added luaObject 10738,9708,0
-LOG  : Lua          f:0> farming: added luaObject 10741,9708,0
-LOG  : Lua          f:0> farming: added luaObject 10742,9708,0
-LOG  : Lua          f:0> farming: added luaObject 10743,9708,0
-LOG  : Lua          f:0> farming: added luaObject 10734,9745,0
-LOG  : Lua          f:0> farming: added luaObject 10735,9745,0
-LOG  : Lua          f:0> farming: added luaObject 10728,9723,0
-LOG  : Lua          f:0> farming: added luaObject 10733,9723,0
-LOG  : Lua          f:0> farming: added luaObject 10734,9723,0
-LOG  : Lua          f:0> farming: added luaObject 10728,9717,0
-LOG  : Lua          f:0> farming: added luaObject 10729,9717,0
-LOG  : Lua          f:0> farming: added luaObject 10730,9717,0
-LOG  : Lua          f:0> farming: added luaObject 10731,9717,0
-LOG  : Lua          f:0> farming: added luaObject 10732,9717,0
-LOG  : Lua          f:0> farming: added luaObject 10733,9717,0
-LOG  : Lua          f:0> farming: added luaObject 10734,9717,0
-LOG  : Lua          f:0> farming: added luaObject 10735,9717,0
-LOG  : Lua          f:0> farming: added luaObject 10730,9708,0
-LOG  : Lua          f:0> farming: added luaObject 10731,9708,0
-LOG  : Lua          f:0> farming: added luaObject 10732,9708,0
-LOG  : Lua          f:0> farming: added luaObject 10733,9708,0
-LOG  : Lua          f:0> farming: added luaObject 10735,9708,0
-LOG  : Lua          f:0> farming: added luaObject 10726,9717,0
-LOG  : Lua          f:0> farming: added luaObject 10727,9717,0
+LOG  : Lua          f:0> farming: added luaObject 10825,10256,0
+LOG  : Lua          f:0> farming: added luaObject 10825,10257,0
+LOG  : Lua          f:0> farming: added luaObject 10826,10256,0
+LOG  : Lua          f:0> farming: added luaObject 10826,10257,0
+LOG  : Lua          f:0> farming: added luaObject 10825,10248,0
+LOG  : Lua          f:0> farming: added luaObject 10825,10249,0
+LOG  : Lua          f:0> farming: added luaObject 10825,10251,0
+LOG  : Lua          f:0> farming: added luaObject 10825,10252,0
+LOG  : Lua          f:0> farming: added luaObject 10825,10253,0
+LOG  : Lua          f:0> farming: added luaObject 10825,10255,0
+LOG  : Lua          f:0> farming: added luaObject 10826,10248,0
+LOG  : Lua          f:0> farming: added luaObject 10826,10249,0
+LOG  : Lua          f:0> farming: added luaObject 10826,10251,0
+LOG  : Lua          f:0> farming: added luaObject 10826,10252,0
+LOG  : Lua          f:0> farming: added luaObject 10826,10253,0
+LOG  : Lua          f:0> farming: added luaObject 10826,10255,0
+LOG  : Lua          f:0> farming: added luaObject 10821,10256,0
+LOG  : Lua          f:0> farming: added luaObject 10821,10257,0
+LOG  : Lua          f:0> farming: added luaObject 10822,10256,0
+LOG  : Lua          f:0> farming: added luaObject 10822,10257,0
+LOG  : Lua          f:0> farming: added luaObject 10821,10248,0
+LOG  : Lua          f:0> farming: added luaObject 10821,10249,0
+LOG  : Lua          f:0> farming: added luaObject 10821,10251,0
+LOG  : Lua          f:0> farming: added luaObject 10821,10252,0
+LOG  : Lua          f:0> farming: added luaObject 10821,10253,0
+LOG  : Lua          f:0> farming: added luaObject 10821,10255,0
+LOG  : Lua          f:0> farming: added luaObject 10822,10248,0
+LOG  : Lua          f:0> farming: added luaObject 10822,10249,0
+LOG  : Lua          f:0> farming: added luaObject 10822,10251,0
+LOG  : Lua          f:0> farming: added luaObject 10822,10252,0
+LOG  : Lua          f:0> farming: added luaObject 10822,10253,0
+LOG  : Lua          f:0> farming: added luaObject 10822,10255,0
 LOG  : General      f:0> SGlobalObjects: newSystem feedingTrough
-LOG  : Lua          f:0> feedingTrough: added luaObject 10832,9779,0
-LOG  : Lua          f:0> feedingTrough: added luaObject 10827,9740,0
 LOG  : General      f:0> SGlobalObjects: newSystem trap
 LOG  : General      f:0> SGlobalObjects: newSystem rainbarrel
 LOG  : General      f:0> CGlobalObjects: newSystem campfire
 LOG  : General      f:0> CGlobalObjects: newSystem farming
-LOG  : Lua          f:0> C farming: added luaObject 10835,9821,0
-LOG  : Lua          f:0> C farming: added luaObject 10835,9822,0
-LOG  : Lua          f:0> C farming: added luaObject 10835,9823,0
-LOG  : Lua          f:0> C farming: added luaObject 10838,9822,0
-LOG  : Lua          f:0> C farming: added luaObject 10838,9823,0
-LOG  : Lua          f:0> C farming: added luaObject 10839,9822,0
-LOG  : Lua          f:0> C farming: added luaObject 10839,9823,0
-LOG  : Lua          f:0> C farming: added luaObject 10835,9813,0
-LOG  : Lua          f:0> C farming: added luaObject 10835,9814,0
-LOG  : Lua          f:0> C farming: added luaObject 10836,9813,0
-LOG  : Lua          f:0> C farming: added luaObject 10836,9814,0
-LOG  : Lua          f:0> C farming: added luaObject 10837,9813,0
-LOG  : Lua          f:0> C farming: added luaObject 10837,9814,0
-LOG  : Lua          f:0> C farming: added luaObject 10838,9813,0
-LOG  : Lua          f:0> C farming: added luaObject 10839,9813,0
-LOG  : Lua          f:0> C farming: added luaObject 10826,9809,0
-LOG  : Lua          f:0> C farming: added luaObject 10826,9810,0
-LOG  : Lua          f:0> C farming: added luaObject 10826,9811,0
-LOG  : Lua          f:0> C farming: added luaObject 10826,9812,0
-LOG  : Lua          f:0> C farming: added luaObject 10827,9809,0
-LOG  : Lua          f:0> C farming: added luaObject 10827,9810,0
-LOG  : Lua          f:0> C farming: added luaObject 10827,9811,0
-LOG  : Lua          f:0> C farming: added luaObject 10827,9812,0
-LOG  : Lua          f:0> C farming: added luaObject 10828,9812,0
-LOG  : Lua          f:0> C farming: added luaObject 10829,9812,0
-LOG  : Lua          f:0> C farming: added luaObject 10811,9744,0
-LOG  : Lua          f:0> C farming: added luaObject 10811,9746,0
-LOG  : Lua          f:0> C farming: added luaObject 10811,9747,0
-LOG  : Lua          f:0> C farming: added luaObject 10812,9744,0
-LOG  : Lua          f:0> C farming: added luaObject 10812,9746,0
-LOG  : Lua          f:0> C farming: added luaObject 10812,9747,0
-LOG  : Lua          f:0> C farming: added luaObject 10814,9744,0
-LOG  : Lua          f:0> C farming: added luaObject 10814,9745,0
-LOG  : Lua          f:0> C farming: added luaObject 10814,9746,0
-LOG  : Lua          f:0> C farming: added luaObject 10815,9744,0
-LOG  : Lua          f:0> C farming: added luaObject 10815,9745,0
-LOG  : Lua          f:0> C farming: added luaObject 10815,9746,0
-LOG  : Lua          f:0> C farming: added luaObject 10811,9737,0
-LOG  : Lua          f:0> C farming: added luaObject 10811,9738,0
-LOG  : Lua          f:0> C farming: added luaObject 10811,9740,0
-LOG  : Lua          f:0> C farming: added luaObject 10811,9741,0
-LOG  : Lua          f:0> C farming: added luaObject 10811,9743,0
-LOG  : Lua          f:0> C farming: added luaObject 10812,9737,0
-LOG  : Lua          f:0> C farming: added luaObject 10812,9738,0
-LOG  : Lua          f:0> C farming: added luaObject 10812,9740,0
-LOG  : Lua          f:0> C farming: added luaObject 10812,9741,0
-LOG  : Lua          f:0> C farming: added luaObject 10812,9743,0
-LOG  : Lua          f:0> C farming: added luaObject 10814,9738,0
-LOG  : Lua          f:0> C farming: added luaObject 10814,9739,0
-LOG  : Lua          f:0> C farming: added luaObject 10814,9740,0
-LOG  : Lua          f:0> C farming: added luaObject 10815,9738,0
-LOG  : Lua          f:0> C farming: added luaObject 10815,9739,0
-LOG  : Lua          f:0> C farming: added luaObject 10815,9740,0
-LOG  : Lua          f:0> C farming: added luaObject 10788,9811,0
-LOG  : Lua          f:0> C farming: added luaObject 10789,9811,0
-LOG  : Lua          f:0> C farming: added luaObject 10768,9789,0
-LOG  : Lua          f:0> C farming: added luaObject 10768,9790,0
-LOG  : Lua          f:0> C farming: added luaObject 10768,9791,0
-LOG  : Lua          f:0> C farming: added luaObject 10769,9789,0
-LOG  : Lua          f:0> C farming: added luaObject 10770,9789,0
-LOG  : Lua          f:0> C farming: added luaObject 10770,9790,0
-LOG  : Lua          f:0> C farming: added luaObject 10770,9791,0
-LOG  : Lua          f:0> C farming: added luaObject 10762,9789,0
-LOG  : Lua          f:0> C farming: added luaObject 10762,9790,0
-LOG  : Lua          f:0> C farming: added luaObject 10762,9791,0
-LOG  : Lua          f:0> C farming: added luaObject 10763,9789,0
-LOG  : Lua          f:0> C farming: added luaObject 10763,9790,0
-LOG  : Lua          f:0> C farming: added luaObject 10763,9791,0
-LOG  : Lua          f:0> C farming: added luaObject 10764,9789,0
-LOG  : Lua          f:0> C farming: added luaObject 10764,9790,0
-LOG  : Lua          f:0> C farming: added luaObject 10764,9791,0
-LOG  : Lua          f:0> C farming: added luaObject 10765,9789,0
-LOG  : Lua          f:0> C farming: added luaObject 10766,9789,0
-LOG  : Lua          f:0> C farming: added luaObject 10766,9790,0
-LOG  : Lua          f:0> C farming: added luaObject 10766,9791,0
-LOG  : Lua          f:0> C farming: added luaObject 10767,9789,0
-LOG  : Lua          f:0> C farming: added luaObject 10767,9790,0
-LOG  : Lua          f:0> C farming: added luaObject 10767,9791,0
-LOG  : Lua          f:0> C farming: added luaObject 10745,9752,0
-LOG  : Lua          f:0> C farming: added luaObject 10745,9754,0
-LOG  : Lua          f:0> C farming: added luaObject 10745,9755,0
-LOG  : Lua          f:0> C farming: added luaObject 10745,9756,0
-LOG  : Lua          f:0> C farming: added luaObject 10745,9757,0
-LOG  : Lua          f:0> C farming: added luaObject 10744,9745,0
-LOG  : Lua          f:0> C farming: added luaObject 10745,9745,0
-LOG  : Lua          f:0> C farming: added luaObject 10745,9746,0
-LOG  : Lua          f:0> C farming: added luaObject 10745,9747,0
-LOG  : Lua          f:0> C farming: added luaObject 10745,9748,0
-LOG  : Lua          f:0> C farming: added luaObject 10745,9749,0
-LOG  : Lua          f:0> C farming: added luaObject 10745,9750,0
-LOG  : Lua          f:0> C farming: added luaObject 10745,9751,0
-LOG  : Lua          f:0> C farming: added luaObject 10744,9723,0
-LOG  : Lua          f:0> C farming: added luaObject 10744,9725,0
-LOG  : Lua          f:0> C farming: added luaObject 10744,9727,0
-LOG  : Lua          f:0> C farming: added luaObject 10744,9713,0
-LOG  : Lua          f:0> C farming: added luaObject 10744,9715,0
-LOG  : Lua          f:0> C farming: added luaObject 10744,9717,0
-LOG  : Lua          f:0> C farming: added luaObject 10736,9809,0
-LOG  : Lua          f:0> C farming: added luaObject 10736,9810,0
-LOG  : Lua          f:0> C farming: added luaObject 10736,9811,0
-LOG  : Lua          f:0> C farming: added luaObject 10736,9812,0
-LOG  : Lua          f:0> C farming: added luaObject 10737,9809,0
-LOG  : Lua          f:0> C farming: added luaObject 10737,9810,0
-LOG  : Lua          f:0> C farming: added luaObject 10737,9811,0
-LOG  : Lua          f:0> C farming: added luaObject 10737,9812,0
-LOG  : Lua          f:0> C farming: added luaObject 10736,9745,0
-LOG  : Lua          f:0> C farming: added luaObject 10737,9745,0
-LOG  : Lua          f:0> C farming: added luaObject 10738,9745,0
-LOG  : Lua          f:0> C farming: added luaObject 10739,9745,0
-LOG  : Lua          f:0> C farming: added luaObject 10740,9745,0
-LOG  : Lua          f:0> C farming: added luaObject 10741,9745,0
-LOG  : Lua          f:0> C farming: added luaObject 10742,9745,0
-LOG  : Lua          f:0> C farming: added luaObject 10743,9745,0
-LOG  : Lua          f:0> C farming: added luaObject 10736,9722,0
-LOG  : Lua          f:0> C farming: added luaObject 10736,9718,0
-LOG  : Lua          f:0> C farming: added luaObject 10736,9708,0
-LOG  : Lua          f:0> C farming: added luaObject 10737,9708,0
-LOG  : Lua          f:0> C farming: added luaObject 10738,9708,0
-LOG  : Lua          f:0> C farming: added luaObject 10741,9708,0
-LOG  : Lua          f:0> C farming: added luaObject 10742,9708,0
-LOG  : Lua          f:0> C farming: added luaObject 10743,9708,0
-LOG  : Lua          f:0> C farming: added luaObject 10734,9745,0
-LOG  : Lua          f:0> C farming: added luaObject 10735,9745,0
-LOG  : Lua          f:0> C farming: added luaObject 10728,9723,0
-LOG  : Lua          f:0> C farming: added luaObject 10733,9723,0
-LOG  : Lua          f:0> C farming: added luaObject 10734,9723,0
-LOG  : Lua          f:0> C farming: added luaObject 10728,9717,0
-LOG  : Lua          f:0> C farming: added luaObject 10729,9717,0
-LOG  : Lua          f:0> C farming: added luaObject 10730,9717,0
-LOG  : Lua          f:0> C farming: added luaObject 10731,9717,0
-LOG  : Lua          f:0> C farming: added luaObject 10732,9717,0
-LOG  : Lua          f:0> C farming: added luaObject 10733,9717,0
-LOG  : Lua          f:0> C farming: added luaObject 10734,9717,0
-LOG  : Lua          f:0> C farming: added luaObject 10735,9717,0
-LOG  : Lua          f:0> C farming: added luaObject 10730,9708,0
-LOG  : Lua          f:0> C farming: added luaObject 10731,9708,0
-LOG  : Lua          f:0> C farming: added luaObject 10732,9708,0
-LOG  : Lua          f:0> C farming: added luaObject 10733,9708,0
-LOG  : Lua          f:0> C farming: added luaObject 10735,9708,0
-LOG  : Lua          f:0> C farming: added luaObject 10726,9717,0
-LOG  : Lua          f:0> C farming: added luaObject 10727,9717,0
+LOG  : Lua          f:0> C farming: added luaObject 10825,10256,0
+LOG  : Lua          f:0> C farming: added luaObject 10825,10257,0
+LOG  : Lua          f:0> C farming: added luaObject 10826,10256,0
+LOG  : Lua          f:0> C farming: added luaObject 10826,10257,0
+LOG  : Lua          f:0> C farming: added luaObject 10825,10248,0
+LOG  : Lua          f:0> C farming: added luaObject 10825,10249,0
+LOG  : Lua          f:0> C farming: added luaObject 10825,10251,0
+LOG  : Lua          f:0> C farming: added luaObject 10825,10252,0
+LOG  : Lua          f:0> C farming: added luaObject 10825,10253,0
+LOG  : Lua          f:0> C farming: added luaObject 10825,10255,0
+LOG  : Lua          f:0> C farming: added luaObject 10826,10248,0
+LOG  : Lua          f:0> C farming: added luaObject 10826,10249,0
+LOG  : Lua          f:0> C farming: added luaObject 10826,10251,0
+LOG  : Lua          f:0> C farming: added luaObject 10826,10252,0
+LOG  : Lua          f:0> C farming: added luaObject 10826,10253,0
+LOG  : Lua          f:0> C farming: added luaObject 10826,10255,0
+LOG  : Lua          f:0> C farming: added luaObject 10821,10256,0
+LOG  : Lua          f:0> C farming: added luaObject 10821,10257,0
+LOG  : Lua          f:0> C farming: added luaObject 10822,10256,0
+LOG  : Lua          f:0> C farming: added luaObject 10822,10257,0
+LOG  : Lua          f:0> C farming: added luaObject 10821,10248,0
+LOG  : Lua          f:0> C farming: added luaObject 10821,10249,0
+LOG  : Lua          f:0> C farming: added luaObject 10821,10251,0
+LOG  : Lua          f:0> C farming: added luaObject 10821,10252,0
+LOG  : Lua          f:0> C farming: added luaObject 10821,10253,0
+LOG  : Lua          f:0> C farming: added luaObject 10821,10255,0
+LOG  : Lua          f:0> C farming: added luaObject 10822,10248,0
+LOG  : Lua          f:0> C farming: added luaObject 10822,10249,0
+LOG  : Lua          f:0> C farming: added luaObject 10822,10251,0
+LOG  : Lua          f:0> C farming: added luaObject 10822,10252,0
+LOG  : Lua          f:0> C farming: added luaObject 10822,10253,0
+LOG  : Lua          f:0> C farming: added luaObject 10822,10255,0
 LOG  : General      f:0> CGlobalObjects: newSystem feedingTrough
-LOG  : Lua          f:0> C feedingTrough: added luaObject 10832,9779,0
-LOG  : Lua          f:0> C feedingTrough: added luaObject 10827,9740,0
 LOG  : General      f:0> CGlobalObjects: newSystem rainbarrel
 LOG  : General      f:0> CGlobalObjects: newSystem trap
 LOG  : General      f:0> GlobalObjects.initSystems() end
-LOG  : General      f:0> [24-09-26 17:16:23.239][info] Init chat system....
-LOG  : General      f:0> [24-09-26 17:16:23.239][info] Mode: single player.
+LOG  : General      f:0> [24-09-26 19:45:54.540][info] Init chat system....
+LOG  : General      f:0> [24-09-26 19:45:54.541][info] Mode: single player.
 LOG  : General      f:0> bWaitForAssetLoadingToFinish2 start
 ERROR: General      f:0 at ImportedSkeleton.collectBoneFrames  > Could not find bone index for node name: "Body"
 ERROR: General      f:0 at ImportedSkeleton.collectBoneFrames  > Could not find bone index for node name: "Body"
@@ -3761,7 +3539,7 @@ LOG  : General      f:0> FBORenderChunkManager.gameLoaded() start
 LOG  : General      f:0> FBORenderChunkManager.gameLoaded() end
 LOG  : General      f:0> Bullet.initPhysicsMeshes() start
 LOG  : General      f:0> Bullet.initPhysicsMeshes() end
-LOG  : General      f:0> game loading took 23 seconds
+LOG  : General      f:0> game loading took 24 seconds
 LOG  : General      f:0> STATE: exit zombie.gameStates.GameLoadingState
 LOG  : Lua          f:0> 1 players found
 LOG  : Lua          f:0> player 0 is mouse
@@ -3783,8 +3561,8 @@ LOG  : General      f:0> FogCycle 1
 LOG  : General      f:0> WaterShut 2
 LOG  : General      f:0> ElecShut 2
 LOG  : General      f:0> AlarmDecay 2
-LOG  : General      f:0> WaterShutModifier 12
-LOG  : General      f:0> ElecShutModifier 21
+LOG  : General      f:0> WaterShutModifier 14
+LOG  : General      f:0> ElecShutModifier 26
 LOG  : General      f:0> AlarmDecayModifier 14
 LOG  : General      f:0> FoodLootNew 0.8
 LOG  : General      f:0> LiteratureLootNew 0.6
@@ -3839,7 +3617,7 @@ LOG  : General      f:0> ConstructionPreventsLootRespawn true
 LOG  : General      f:0> WorldItemRemovalList Base.Hat, Base.Glasses, Base.Maggots, Base.Slug, Base.Slug2, Base.Snail, Base.Worm, Base.Dung_Mouse, Base.Dung_Rat
 LOG  : General      f:0> HoursForWorldItemRemoval 24.0
 LOG  : General      f:0> ItemRemovalListBlacklistToggle false
-LOG  : General      f:0> TimeSinceApo 1
+LOG  : General      f:0> TimeSinceApo 10
 LOG  : General      f:0> PlantResilience 3
 LOG  : General      f:0> PlantAbundance 3
 LOG  : General      f:0> EndRegen 3
@@ -3849,14 +3627,14 @@ LOG  : General      f:0> SleepingEvent 1
 LOG  : General      f:0> GeneratorFuelConsumption 0.1
 LOG  : General      f:0> GeneratorSpawning 4
 LOG  : General      f:0> AnnotatedMapChance 4
-LOG  : General      f:0> CharacterFreePoints 0
+LOG  : General      f:0> CharacterFreePoints 100
 LOG  : General      f:0> ConstructionBonusPoints 3
-LOG  : General      f:0> NightDarkness 3
+LOG  : General      f:0> NightDarkness 4
 LOG  : General      f:0> NightLength 3
 LOG  : General      f:0> BoneFracture true
 LOG  : General      f:0> InjurySeverity 2
 LOG  : General      f:0> HoursForCorpseRemoval 216.0
-LOG  : General      f:0> DecayingCorpseHealthImpact 3
+LOG  : General      f:0> DecayingCorpseHealthImpact 2
 LOG  : General      f:0> ZombieHealthImpact false
 LOG  : General      f:0> BloodLevel 3
 LOG  : General      f:0> ClothingDegradation 3
@@ -3870,13 +3648,13 @@ LOG  : General      f:0> AttackBlockMovements true
 LOG  : General      f:0> SurvivorHouseChance 3
 LOG  : General      f:0> VehicleStoryChance 3
 LOG  : General      f:0> ZoneStoryChance 3
-LOG  : General      f:0> AllClothesUnlocked false
+LOG  : General      f:0> AllClothesUnlocked true
 LOG  : General      f:0> EnableTaintedWaterText true
 LOG  : General      f:0> EnableVehicles true
 LOG  : General      f:0> CarSpawnRate 3
 LOG  : General      f:0> ZombieAttractionMultiplier 1.0
 LOG  : General      f:0> VehicleEasyUse false
-LOG  : General      f:0> InitialGas 2
+LOG  : General      f:0> InitialGas 3
 LOG  : General      f:0> FuelStationGasInfinite false
 LOG  : General      f:0> FuelStationGasMin 0.0
 LOG  : General      f:0> FuelStationGasMax 0.8
@@ -3884,15 +3662,15 @@ LOG  : General      f:0> FuelStationGasEmptyChance 20
 LOG  : General      f:0> LockedCar 4
 LOG  : General      f:0> CarGasConsumption 1.0
 LOG  : General      f:0> CarGeneralCondition 3
-LOG  : General      f:0> CarDamageOnImpact 3
+LOG  : General      f:0> CarDamageOnImpact 1
 LOG  : General      f:0> DamageToPlayerFromHitByACar 1
 LOG  : General      f:0> TrafficJam true
 LOG  : General      f:0> CarAlarm 3
-LOG  : General      f:0> PlayerDamageFromCrash true
+LOG  : General      f:0> PlayerDamageFromCrash false
 LOG  : General      f:0> SirenShutoffHours 0.0
 LOG  : General      f:0> ChanceHasGas 2
 LOG  : General      f:0> RecentlySurvivorVehicles 2
-LOG  : General      f:0> MultiHitZombies false
+LOG  : General      f:0> MultiHitZombies true
 LOG  : General      f:0> RearVulnerability 3
 LOG  : General      f:0> SirenEffectsZombies true
 LOG  : General      f:0> AnimalStatsModifier 4
@@ -3939,7 +3717,7 @@ LOG  : General      f:0> DiscomfortFactor 0.8
 LOG  : General      f:0> WoundInfectionFactor 1.0
 LOG  : General      f:0> NoBlackClothes true
 LOG  : General      f:0> EasyClimbing false
-LOG  : General      f:0> MaximumFireFuelHours 8
+LOG  : General      f:0> MaximumFireFuelHours 24
 LOG  : General      f:0> FirearmUseDamageChance 2
 LOG  : General      f:0> FirearmNoiseMultiplier 1.0
 LOG  : General      f:0> FirearmJamMultiplier 1.0
@@ -3950,24 +3728,24 @@ LOG  : General      f:0> ClayLakeChance 0.05
 LOG  : General      f:0> ClayRiverChance 0.05
 LOG  : General      f:0> GeneratorTileRange 20
 LOG  : General      f:0> GeneratorVerticalPowerRange 3
-LOG  : General      f:0> SpawnFrequency 4
-LOG  : General      f:0> AllowMiniMap false
+LOG  : General      f:0> SpawnFrequency 5
+LOG  : General      f:0> AllowMiniMap true
 LOG  : General      f:0> AllowWorldMap true
-LOG  : General      f:0> MapAllKnown false
+LOG  : General      f:0> MapAllKnown true
 LOG  : General      f:0> MapNeedsLight true
 LOG  : General      f:0> Speed 4
 LOG  : General      f:0> SprinterPercentage 0
-LOG  : General      f:0> Strength 2
+LOG  : General      f:0> Strength 3
 LOG  : General      f:0> Toughness 4
 LOG  : General      f:0> Transmission 1
-LOG  : General      f:0> Mortality 5
+LOG  : General      f:0> Mortality 7
 LOG  : General      f:0> Reanimate 3
 LOG  : General      f:0> Cognition 3
 LOG  : General      f:0> DoorOpeningPercentage 0
 LOG  : General      f:0> CrawlUnderVehicle 5
 LOG  : General      f:0> Memory 2
-LOG  : General      f:0> Sight 5
-LOG  : General      f:0> Hearing 5
+LOG  : General      f:0> Sight 3
+LOG  : General      f:0> Hearing 3
 LOG  : General      f:0> SpottedLogic true
 LOG  : General      f:0> ThumpNoChasing false
 LOG  : General      f:0> ThumpOnConstruction true
@@ -3999,7 +3777,7 @@ LOG  : General      f:0> RallyTravelDistance 20
 LOG  : General      f:0> RallyGroupSeparation 15
 LOG  : General      f:0> RallyGroupRadius 3
 LOG  : General      f:0> ZombiesCountBeforeDelete 300
-LOG  : General      f:0> Global 1.0
+LOG  : General      f:0> Global 1.8
 LOG  : General      f:0> GlobalToggle true
 LOG  : General      f:0> Fitness 1.0
 LOG  : General      f:0> Strength 1.0
@@ -4087,7 +3865,7 @@ LOG  : General      f:0> Guns93HandgunRecoilMin 15.0
 LOG  : General      f:0> Guns93LongGunRecoilMin 10.0
 LOG  : General      f:0> AllowWreckyMcChevySpawns true
 LOG  : General      f:0> AllowContainerSpawns true
-LOG  : General      f:0> AllowGreatScottSpawns false
+LOG  : General      f:0> AllowGreatScottSpawns true
 LOG  : General      f:0> AllowPowerChadSpawns true
 LOG  : General      f:0> AllowTiles true
 LOG  : General      f:0> SpriteWhitelist brokenglass_1_;trash_01_;d_trash_;street_decoration_01_26;street_decoration_01_27;damaged_objects_01_26;damaged_objects_01_27;damaged_objects_01_18;damaged_objects_01_19;damaged_objects_01_20;damaged_objects_01_21
@@ -4105,13 +3883,13 @@ LOG  : General      f:0> AllowMcBoxySpawns true
 LOG  : General      f:0> AllowManlyMANSpawns true
 LOG  : General      f:0> AllowBushmasterSpawns true
 LOG  : General      f:0> AllowPro440Spawns true
-LOG  : General      f:0> AllowDemonChildSpawns false
+LOG  : General      f:0> AllowDemonChildSpawns true
 LOG  : General      f:0> WatchSpawn false
 LOG  : General      f:0> GardenSpawn false
 LOG  : General      f:0> CarpentrySpawn false
 LOG  : General      f:0> MechanicsSpawn false
 LOG  : General      f:0> MetalSpawn false
-LOG  : General      f:0> FishingSpawn false
+LOG  : General      f:0> FishingSpawn true
 LOG  : General      f:0> TailorSpawn false
 LOG  : General      f:0> CookingSpawn false
 LOG  : General      f:0> CrowbarSpawn false
@@ -4123,15 +3901,15 @@ LOG  : General      f:0> KatanaSpawn false
 LOG  : General      f:0> MacheteSpawn false
 LOG  : General      f:0> NightStickSpawn false
 LOG  : General      f:0> AxeSpawn false
-LOG  : General      f:0> WaterSpawn false
-LOG  : General      f:0> ChipsSpawn false
+LOG  : General      f:0> WaterSpawn true
+LOG  : General      f:0> ChipsSpawn true
 LOG  : General      f:0> CigSpawn false
 LOG  : General      f:0> TentSpawn false
 LOG  : General      f:0> BackpackSpawn false
 LOG  : General      f:0> FannypackSpawn false
 LOG  : General      f:0> PonchoSpawn false
-LOG  : General      f:0> PencilSpawn false
-LOG  : General      f:0> HowToGenSpawn false
+LOG  : General      f:0> PencilSpawn true
+LOG  : General      f:0> HowToGenSpawn true
 LOG  : General      f:0> FullGasCanSpawn false
 LOG  : General      f:0> FlashLightSpawn false
 LOG  : General      f:0> HamRadSpawn false
@@ -4177,38 +3955,18 @@ LOG  : General      f:0> Cheats enabled/disabled on game start in lua from the f
 LOG  : General      f:0> binkId: 3
 LOG  : Lua          f:0> [ManualSaveMod] Pause menu: SAVE GAME + LOAD GAME injected.
 LOG  : Lua          f:0> [ManualSaveMod] Pause menu: joypad integration installed.
-LOG  : Lua          f:1> [BetterBrushPicker] Installed v0.4.3 successfully.
+LOG  : Lua          f:1> [BetterBrushPicker] Installed v0.4.5 successfully.
+LOG  : Lua          f:1> [BetterBrushPicker] Version marker: BetterBrushPicker source v0.4.5
 LOG  : Lua          f:1> [BetterBrushPicker] Texture warmup complete: 0/0 tilesets resolved through actual tile IDs.
-LOG  : Lua          f:381> [BetterBrushPicker] Direct tile enumeration found 61740 actual tile IDs across 515 tilesets (0 definition lists failed).
-LOG  : Lua          f:381> [BetterBrushPicker] Texture warmup started: 515 tilesets, 4 actual-tile lookups per tick.
-LOG  : Lua          f:381> [BetterBrushPicker] Loaded 515 cached tilesets (61740 tiles); 0 tilesets remain for direct enumeration.
-LOG  : Lua          f:381> [BetterBrushPicker] All 515 tilesets loaded from persistent cache.
-LOG  : Lua          f:510> [BetterBrushPicker] Texture warmup complete: 463/515 tilesets resolved through actual tile IDs.
-ERROR: General      f:714 at CellLoader.DoTileObjectCreation     > CellLoader> missing tile vegetation_groundcover_01_19
-ERROR: General      f:714 at CellLoader.DoTileObjectCreation     > CellLoader> missing tile vegetation_groundcover_01_18
-ERROR: General      f:714 at CellLoader.DoTileObjectCreation     > CellLoader> missing tile vegetation_groundcover_01_20
-ERROR: General      f:714 at CellLoader.DoTileObjectCreation     > CellLoader> missing tile vegetation_groundcover_01_22
-ERROR: General      f:714 at CellLoader.DoTileObjectCreation     > CellLoader> missing tile vegetation_groundcover_01_23
-ERROR: General      f:714 at CellLoader.DoTileObjectCreation     > CellLoader> missing tile vegetation_groundcover_01_21
-LOG  : Lua          f:729> farming: created farming/houseplant luaObject from pre-existing isoObject 10835,9824
-LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10841,9822
-LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10841,9823
-LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10842,9822
-LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10842,9823
-LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10845,9818
-LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10845,9819
-LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10845,9821
-LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10845,9822
-LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10845,9823
-LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10846,9818
-LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10846,9819
-LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10846,9821
-LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10846,9822
-LOG  : Lua          f:730> farming: created farming/houseplant luaObject from pre-existing isoObject 10846,9823
-LOG  : General      f:1568> Saving worldgen params
-LOG  : General      f:1568> Saving GlobalModData
-LOG  : Lua          f:1568> removing all player data
-LOG  : Lua          f:1568> - player: 0
-LOG  : Lua          f:1568> removing all player data
-LOG  : Lua          f:1568> - player: 0
-LOG  : General      f:1568> GameThread exited.
+LOG  : Lua          f:484> [BetterBrushPicker] Direct tile enumeration found 61740 actual tile IDs across 515 tilesets (0 definition lists failed).
+LOG  : Lua          f:484> [BetterBrushPicker] Texture warmup started: 515 tilesets, 4 actual-tile lookups per tick.
+LOG  : Lua          f:484> [BetterBrushPicker] Loaded 515 cached tilesets (61740 tiles); 0 tilesets remain for direct enumeration.
+LOG  : Lua          f:484> [BetterBrushPicker] All 515 tilesets loaded from persistent cache.
+LOG  : Lua          f:613> [BetterBrushPicker] Texture warmup complete: 463/515 tilesets resolved through actual tile IDs.
+LOG  : General      f:4668> Saving worldgen params
+LOG  : General      f:4668> Saving GlobalModData
+LOG  : Lua          f:4668> removing all player data
+LOG  : Lua          f:4668> - player: 0
+LOG  : Lua          f:4668> removing all player data
+LOG  : Lua          f:4668> - player: 0
+LOG  : General      f:4668> GameThread exited.
