@@ -1,12 +1,12 @@
-LOG  : General      f:0> 24-09-2026 20:10:57
+LOG  : General      f:0> 25-09-2026 19:38:33
 LOG  : General      f:0> SLF4J(I): Attempting to load provider "zombie.core.logger.Slf4jBridge" specified via "slf4j.provider" system property
 LOG  : General      f:0> ===== System specs =====
 LOG  : General      f:0> CPU: Apple M3, vendor: Apple Inc., cores: 8, threads: 8
 LOG  : General      f:0> RAM: 16384 Mb
 LOG  : General      f:0> Base board: MC8H4, vendor: Apple Inc.
 LOG  : General      f:0> GPU: Apple M3, vendor: Apple (0x106b), video memory: 0 Mb, driver: unknown
-LOG  : General      f:0> Disk info: 228.27 Gb, free space: 31.12 Gb, usable space: 31.12 Gb
-WARN : General      f:0 at SysctlUtilFFM.sysctlbyname          > Failed sysctl call: MemorySegment{ kind: native, address: 0xc869e7d10, byteSize: 14 }, Error code: 12
+LOG  : General      f:0> Disk info: 228.27 Gb, free space: 30.38 Gb, usable space: 30.38 Gb
+WARN : General      f:0 at SysctlUtilFFM.sysctlbyname          > Failed sysctl call: MemorySegment{ kind: native, address: 0x78452b720, byteSize: 14 }, Error code: 12
 LOG  : General      f:0> OS: Mac OS X, version: 26.6.2, arch: aarch64, build: 25G83
 LOG  : General      f:0> JVM (free: 164 Mb, max: 3072 Mb, total available: 256 Mb)
 LOG  : General      f:0> ========================
@@ -81,20 +81,20 @@ LOG  : General      f:0> Desktop resolution 1470x956
 LOG  : General      f:0> Initial resolution 1470x814 fullScreen=false
 LOG  : General      f:0> OpenGL 1.5 buffer objects supported
 LOG  : General      f:0> VSync: OFF
-LOG  : General      f:0> 1790295058397 fmod: Java loging: OK
-LOG  : General      f:0> 1790295058398 fmod: FMOD::Studio::System::create() result: No errors.
-LOG  : General      f:0> 1790295058398 fmod: FMOD::Studio::System::getCoreSystem() result: No errors.
-LOG  : General      f:0> 1790295058398 fmod: FMOD_System_GetVersion() result: No errors.
-LOG  : General      f:0> 1790295058398 fmod: fmodintegration built with version 20309, fmod shared library version 20309
-LOG  : General      f:0> 1790295058398 fmod: System Create: OK
-LOG  : General      f:0> 1790295058398 fmod: FMOD_System_SetSoftwareFormat() result: No errors.
-LOG  : General      f:0> 1790295059029 fmod: FMOD::Studio::System::Initialize() result: No errors.
-LOG  : General      f:0> 1790295059029 fmod: Creating DSP for capture sound
-LOG  : General      f:0> 1790295059029 fmod: FMOD_System_CreateDSP() result: No errors.
-LOG  : General      f:0> 1790295059029 fmod: FMOD_DSP_SetBypass() result: No errors.
-LOG  : General      f:0> 1790295059029 fmod: FMOD_System_GetMasterChannelGroup() result: No errors.
-LOG  : General      f:0> 1790295059029 fmod: FMOD_ChannelGroup_AddDSP() result: No errors.
-LOG  : General      f:0> 1790295059029 fmod: FMOD_System_Set3DSettings() result: No errors.
+LOG  : General      f:0> 1790379514506 fmod: Java loging: OK
+LOG  : General      f:0> 1790379514508 fmod: FMOD::Studio::System::create() result: No errors.
+LOG  : General      f:0> 1790379514508 fmod: FMOD::Studio::System::getCoreSystem() result: No errors.
+LOG  : General      f:0> 1790379514508 fmod: FMOD_System_GetVersion() result: No errors.
+LOG  : General      f:0> 1790379514508 fmod: fmodintegration built with version 20309, fmod shared library version 20309
+LOG  : General      f:0> 1790379514508 fmod: System Create: OK
+LOG  : General      f:0> 1790379514508 fmod: FMOD_System_SetSoftwareFormat() result: No errors.
+LOG  : General      f:0> 1790379514697 fmod: FMOD::Studio::System::Initialize() result: No errors.
+LOG  : General      f:0> 1790379514697 fmod: Creating DSP for capture sound
+LOG  : General      f:0> 1790379514698 fmod: FMOD_System_CreateDSP() result: No errors.
+LOG  : General      f:0> 1790379514698 fmod: FMOD_DSP_SetBypass() result: No errors.
+LOG  : General      f:0> 1790379514698 fmod: FMOD_System_GetMasterChannelGroup() result: No errors.
+LOG  : General      f:0> 1790379514698 fmod: FMOD_ChannelGroup_AddDSP() result: No errors.
+LOG  : General      f:0> 1790379514698 fmod: FMOD_System_Set3DSettings() result: No errors.
 LOG  : General      f:0> Loading networking libraries...
 LOG  : General      f:0> Loading steam_api...
 LOG  : General      f:0> Loading RakNet...
@@ -3028,8 +3028,8 @@ WARN : Lua          f:0 at Lua(Vanilla).ISAnimalContextMenu.lua> require("Buildi
 WARN : Lua          f:0 at Lua(Vanilla).TakeSameType.lua       > require("ISUI/InventoryWindow/ISLootWindowControlHandler") failed
 WARN : Lua          f:0 at Lua(Vanilla).FloorTakeSameType.lua  > require("ISUI/InventoryWindow/ISLootWindowControlHandler") failed
 WARN : Lua          f:0 at Lua(Vanilla).testUI.lua             > require("pzapi/ui/ui") failed
-LOG  : Lua          f:0> E150 TEST:	table 0x1625209097{ activeArmor=closure 0x1528594986 }
-LOG  : Lua          f:0> E150 ACTIVE ARMOR TEST:	closure 0x1528594986
+LOG  : Lua          f:0> E150 TEST:	table 0x1975805040{ activeArmor=closure 0x633187615 }
+LOG  : Lua          f:0> E150 ACTIVE ARMOR TEST:	closure 0x633187615
 LOG  : Lua          f:0> TRUE LINE OF SIGHT BUILD 42 WORKSHOP OPTIMIZED 2026-09-18 HAS LOADED
 LOG  : Lua          f:0> [ManualSaveMod] Core/Config.lua loaded.
 LOG  : Lua          f:0> [ManualSaveMod] Core/EditMods.lua loaded.
@@ -3321,7 +3321,7 @@ LOG  : General      f:0> Looking in these map folders:
 LOG  : General      f:0> <End of map-folders list>
 LOG  : General      f:0> IsoMetaGrid.Create: X: [ -250 250 ], Y: [ -250 250 ]
 LOG  : General      f:0> World seed: AveHCzgPbebXKeXG -919566246
-LOG  : General      f:0> IsoMetaGrid.Create: finished scanning directories in 0.096 seconds
+LOG  : General      f:0> IsoMetaGrid.Create: finished scanning directories in 0.122 seconds
 LOG  : General      f:0> IsoMetaGrid.Create: begin loading
 LOG  : Lua          f:0> ### Merging distribution tables ###
 LOG  : Lua          f:0> Merging distribution addon #	1
@@ -3348,7 +3348,7 @@ LOG  : General      f:0> loadAnimalDefinitions end
 LOG  : General      f:0> GameTime.init() and load() start
 LOG  : General      f:0> GameTime.init() and load() end
 LOG  : General      f:0> ZomboidRadio.Init() start
-LOG  : Lua          f:0> scriptmanager = zombie.radio.scripting.RadioScriptManager@67748635, isNewGame = false
+LOG  : Lua          f:0> scriptmanager = zombie.radio.scripting.RadioScriptManager@7ea06cd6, isNewGame = false
 LOG  : Lua          f:0> name = Automated Emergency Broadcast System, freq = 105600, cat = Emergency, uuid = EMRG-711984
 LOG  : Lua          f:0> Found radio channel: Automated Emergency Broadcast System, freq = EMRG-711984, freqcheck = 105600, multi = 1
 LOG  : General      f:0> Radio Loading channels...
@@ -3367,7 +3367,7 @@ LOG  : General      f:0> GameEntityManager.Init() start
 LOG  : General      f:0> GameEntityManager.Init() end
 LOG  : General      f:0> PersistentOutfits.init() start
 LOG  : General      f:0> PersistentOutfits.init() end
-LOG  : General      f:0> IsoMetaGrid.Create: finished loading in 5.294 seconds
+LOG  : General      f:0> IsoMetaGrid.Create: finished loading in 4.864 seconds
 ERROR: Lua          f:0 at Lua(Vanilla).handleMannequinZone    > ERROR: Mannequin zone missing properties in media/maps/Muldraugh, KY/objects.lua coords: 13583, 1299, 0
 WARN : Lua          f:0 at Lua(Vanilla).doMapZones             > can't find map objects file: media/maps/Riverside, KY/objects.lua
 WARN : Lua          f:0 at Lua(Vanilla).doMapZones             > can't find map objects file: media/maps/Irvington, KY/objects.lua
@@ -3528,8 +3528,8 @@ LOG  : General      f:0> CGlobalObjects: newSystem feedingTrough
 LOG  : General      f:0> CGlobalObjects: newSystem rainbarrel
 LOG  : General      f:0> CGlobalObjects: newSystem trap
 LOG  : General      f:0> GlobalObjects.initSystems() end
-LOG  : General      f:0> [24-09-26 20:11:34.180][info] Init chat system....
-LOG  : General      f:0> [24-09-26 20:11:34.180][info] Mode: single player.
+LOG  : General      f:0> [25-09-26 19:39:11.624][info] Init chat system....
+LOG  : General      f:0> [25-09-26 19:39:11.624][info] Mode: single player.
 LOG  : General      f:0> bWaitForAssetLoadingToFinish2 start
 ERROR: General      f:0 at ImportedSkeleton.collectBoneFrames  > Could not find bone index for node name: "Body"
 ERROR: General      f:0 at ImportedSkeleton.collectBoneFrames  > Could not find bone index for node name: "Body"
@@ -3539,7 +3539,7 @@ LOG  : General      f:0> FBORenderChunkManager.gameLoaded() start
 LOG  : General      f:0> FBORenderChunkManager.gameLoaded() end
 LOG  : General      f:0> Bullet.initPhysicsMeshes() start
 LOG  : General      f:0> Bullet.initPhysicsMeshes() end
-LOG  : General      f:0> game loading took 24 seconds
+LOG  : General      f:0> game loading took 22 seconds
 LOG  : General      f:0> STATE: exit zombie.gameStates.GameLoadingState
 LOG  : Lua          f:0> 1 players found
 LOG  : Lua          f:0> player 0 is mouse
@@ -3955,29 +3955,609 @@ LOG  : General      f:0> Cheats enabled/disabled on game start in lua from the f
 LOG  : General      f:0> binkId: 3
 LOG  : Lua          f:0> [ManualSaveMod] Pause menu: SAVE GAME + LOAD GAME injected.
 LOG  : Lua          f:0> [ManualSaveMod] Pause menu: joypad integration installed.
-LOG  : Lua          f:1> [BetterBrushPicker] Installed v0.5.2 successfully.
-LOG  : Lua          f:1> [BetterBrushPicker] Version marker: BetterBrushPicker source v0.5.2
-LOG  : Lua          f:1> [BetterBrushPicker] Thumbnail resolver: getTexture -> IsoSprite:LoadFrameExplicit -> sprite frame fallbacks.
-LOG  : Lua          f:1> [BetterBrushPicker] Ground-up UI: native ISScrollingListBox rows, 8 tiles per row, no custom stencil/scroll code.
-LOG  : Lua          f:358> [BetterBrushPicker] Direct tile enumeration found 61740 actual tile IDs across 515 tilesets (0 definition lists failed).
-LOG  : Lua          f:358> [BetterBrushPicker] Loaded 515 cached tilesets (61740 tiles); 0 tilesets remain for direct enumeration.
-LOG  : Lua          f:358> [BetterBrushPicker] All 515 tilesets loaded from persistent cache.
-LOG  : Lua          f:358> [BetterBrushPicker] Thumbnail stats: direct=0 explicit=0 currentFrame=0 frame0=0 spriteTexture=0 missing=0
-LOG  : Lua          f:731> [BetterBrushPicker] Refusing tile with no resolvable texture: appliances_com_01_162
-LOG  : Lua          f:785> [BetterBrushPicker] Refusing tile with no resolvable texture: appliances_com_01_161
-LOG  : Lua          f:1825> [BetterBrushPicker] Thumbnail stats: direct=406 explicit=0 currentFrame=0 frame0=0 spriteTexture=0 missing=18975
-LOG  : Lua          f:1958> [BetterBrushPicker] Refusing tile with no resolvable texture: advertising_01_on_107
-LOG  : Lua          f:1986> [BetterBrushPicker] Refusing tile with no resolvable texture: advertising_01_on_106
-LOG  : Lua          f:2021> [BetterBrushPicker] Refusing tile with no resolvable texture: advertising_01_on_105
-LOG  : Lua          f:2051> [BetterBrushPicker] Refusing tile with no resolvable texture: advertising_01_on_98
-LOG  : Lua          f:2730> [BetterBrushPicker] Thumbnail stats: direct=406 explicit=0 currentFrame=0 frame0=0 spriteTexture=0 missing=36055
-LOG  : Lua          f:3084> [BetterBrushPicker] Refusing tile with no resolvable texture: d_streetcracks_1_123
-LOG  : Lua          f:3113> [BetterBrushPicker] Refusing tile with no resolvable texture: d_streetcracks_1_122
-LOG  : Lua          f:3167> [BetterBrushPicker] Thumbnail stats: direct=446 explicit=0 currentFrame=0 frame0=0 spriteTexture=0 missing=39553
-LOG  : General      f:4205> Saving worldgen params
-LOG  : General      f:4205> Saving GlobalModData
-LOG  : Lua          f:4205> removing all player data
-LOG  : Lua          f:4205> - player: 0
-LOG  : Lua          f:4205> removing all player data
-LOG  : Lua          f:4205> - player: 0
-LOG  : General      f:4205> GameThread exited.
+LOG  : Lua          f:1> [BetterBrushPicker] Installed v0.7.0 successfully.
+LOG  : Lua          f:1> [BetterBrushPicker] Version marker: BetterBrushPicker source v0.7.0
+LOG  : Lua          f:1> [BetterBrushPicker] Search: tileset-level postings with trigram narrowing; full scan reserved for empty queries.
+LOG  : Lua          f:1> [BetterBrushPicker] Taxonomy: vanilla Brush Tool categories are primary, BBP heuristics are fallback.
+LOG  : Lua          f:1> [BetterBrushPicker] Workflow: Favorites, Recent(50), tileset filter, filtered sorting, coalesced search refresh.
+LOG  : Lua          f:1> [BetterBrushPicker] Verified index: old cache generation is ignored; new cache header BBP_CACHE_9 is used.
+LOG  : Lua          f:1> [BetterBrushPicker] UI: native ISScrollingListBox rows, 8 tiles per row; thumbnail rendering uses already-loaded IsoSprite textures.
+LOG  : Lua          f:410> [BetterBrushPicker] B42 sources: 515 tile-definition lists, 617 tile-image names, 61740 raw tile IDs.
+LOG  : Lua          f:410> [BetterBrushPicker] The raw-ID count is only a candidate count; verified indexing will keep only loaded IsoSprites with real textures.
+LOG  : Lua          f:410> [BetterBrushPicker] Cache check: 0/515 definition lists accepted, 0 cached verified tiles reused, 515 lists require verification.
+LOG  : Lua          f:410> [BetterBrushPicker] Verified sprite index build: 515 definition lists remaining, 96 candidates per burst.
+LOG  : Lua          f:410> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=0 directFallback=0 missing=0
+LOG  : Lua          f:411> [BetterBrushPicker] Verified/cache tileset PuffinsPosterBin2: 16 drawable tiles from 16 candidates.
+LOG  : Lua          f:413> [BetterBrushPicker] Verified/cache tileset advertising_01: 100 drawable tiles from 128 candidates.
+LOG  : Lua          f:415> [BetterBrushPicker] Verified/cache tileset advertising_01_on: 3 drawable tiles from 128 candidates.
+LOG  : Lua          f:416> [BetterBrushPicker] Verified/cache tileset advertising_02: 2 drawable tiles from 64 candidates.
+LOG  : Lua          f:417> [BetterBrushPicker] Verified/cache tileset advertising_02_on: 2 drawable tiles from 64 candidates.
+LOG  : Lua          f:419> [BetterBrushPicker] Verified/cache tileset animaltracks_large_01: 64 drawable tiles from 160 candidates.
+LOG  : Lua          f:421> [BetterBrushPicker] Verified/cache tileset appliances_01: 66 drawable tiles from 96 candidates.
+LOG  : Lua          f:424> [BetterBrushPicker] Verified/cache tileset appliances_com_01: 153 drawable tiles from 240 candidates.
+LOG  : Lua          f:427> [BetterBrushPicker] Verified/cache tileset appliances_com_01_on: 11 drawable tiles from 240 candidates.
+LOG  : Lua          f:429> [BetterBrushPicker] Verified/cache tileset appliances_cooking_01: 79 drawable tiles from 128 candidates.
+LOG  : Lua          f:431> [BetterBrushPicker] Verified/cache tileset appliances_cooking_01_on: 33 drawable tiles from 128 candidates.
+LOG  : Lua          f:433> [BetterBrushPicker] Verified/cache tileset appliances_cooking_ON_01: 25 drawable tiles from 128 candidates.
+LOG  : Lua          f:434> [BetterBrushPicker] Verified/cache tileset appliances_laundry_01: 28 drawable tiles from 64 candidates.
+LOG  : Lua          f:435> [BetterBrushPicker] Verified/cache tileset appliances_laundry_01_on: 6 drawable tiles from 64 candidates.
+LOG  : Lua          f:436> [BetterBrushPicker] Verified/cache tileset appliances_misc_01: 16 drawable tiles from 64 candidates.
+LOG  : Lua          f:437> [BetterBrushPicker] Verified/cache tileset appliances_misc_01_on: 8 drawable tiles from 64 candidates.
+LOG  : Lua          f:438> [BetterBrushPicker] Verified/cache tileset appliances_radio_01: 20 drawable tiles from 64 candidates.
+LOG  : Lua          f:439> [BetterBrushPicker] Verified/cache tileset appliances_refrigeration_01: 52 drawable tiles from 64 candidates.
+LOG  : Lua          f:440> [BetterBrushPicker] Verified/cache tileset appliances_refrigeration_01_on: 12 drawable tiles from 64 candidates.
+LOG  : Lua          f:442> [BetterBrushPicker] Verified/cache tileset appliances_television_01: 36 drawable tiles from 128 candidates.
+LOG  : Lua          f:443> [BetterBrushPicker] Verified/cache tileset blends_grassoverlays_01: 55 drawable tiles from 80 candidates.
+LOG  : Lua          f:445> [BetterBrushPicker] Verified/cache tileset blends_natural_01: 128 drawable tiles from 160 candidates.
+LOG  : Lua          f:446> [BetterBrushPicker] Verified/cache tileset blends_natural_02: 16 drawable tiles from 80 candidates.
+LOG  : Lua          f:448> [BetterBrushPicker] Verified/cache tileset blends_street_01: 80 drawable tiles from 160 candidates.
+LOG  : Lua          f:449> [BetterBrushPicker] Verified/cache tileset blends_streetoverlays_01: 32 drawable tiles from 80 candidates.
+LOG  : Lua          f:450> [BetterBrushPicker] Verified/cache tileset blueprints_01: 0 drawable tiles from 64 candidates.
+LOG  : Lua          f:452> [BetterBrushPicker] Verified/cache tileset books&misc_01: 122 drawable tiles from 128 candidates.
+LOG  : Lua          f:454> [BetterBrushPicker] Verified/cache tileset books&misc_02: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:456> [BetterBrushPicker] Verified/cache tileset boulders: 60 drawable tiles from 128 candidates.
+LOG  : Lua          f:457> [BetterBrushPicker] Verified/cache tileset brokenglass_1: 4 drawable tiles from 80 candidates.
+LOG  : Lua          f:459> [BetterBrushPicker] Verified/cache tileset camping_01: 59 drawable tiles from 128 candidates.
+LOG  : Lua          f:461> [BetterBrushPicker] Verified/cache tileset camping_02: 88 drawable tiles from 128 candidates.
+LOG  : Lua          f:463> [BetterBrushPicker] Verified/cache tileset camping_03: 36 drawable tiles from 128 candidates.
+LOG  : Lua          f:465> [BetterBrushPicker] Verified/cache tileset camping_04: 82 drawable tiles from 128 candidates.
+LOG  : Lua          f:466> [BetterBrushPicker] Verified/cache tileset carpentry_01: 61 drawable tiles from 64 candidates.
+LOG  : Lua          f:468> [BetterBrushPicker] Verified/cache tileset carpentry_02: 115 drawable tiles from 128 candidates.
+LOG  : Lua          f:470> [BetterBrushPicker] Verified/cache tileset carpentry_02_on: 0 drawable tiles from 128 candidates.
+LOG  : Lua          f:472> [BetterBrushPicker] Verified/cache tileset carpentry_03: 94 drawable tiles from 128 candidates.
+LOG  : Lua          f:473> [BetterBrushPicker] Verified/cache tileset ceilings_01: 1 drawable tiles from 32 candidates.
+LOG  : Lua          f:474> [BetterBrushPicker] Verified/cache tileset clothing_01: 62 drawable tiles from 64 candidates.
+LOG  : Lua          f:475> [BetterBrushPicker] Verified/cache tileset clothing_02: 51 drawable tiles from 64 candidates.
+LOG  : Lua          f:477> [BetterBrushPicker] Verified/cache tileset constructedobjects_01: 87 drawable tiles from 144 candidates.
+LOG  : Lua          f:479> [BetterBrushPicker] Verified/cache tileset constructedobjects_signs_01: 52 drawable tiles from 128 candidates.
+LOG  : Lua          f:482> [BetterBrushPicker] Verified/cache tileset construction_01: 110 drawable tiles from 192 candidates.
+LOG  : Lua          f:484> [BetterBrushPicker] Verified/cache tileset crafted_01: 118 drawable tiles from 128 candidates.
+LOG  : Lua          f:486> [BetterBrushPicker] Verified/cache tileset crafted_02: 109 drawable tiles from 128 candidates.
+LOG  : Lua          f:488> [BetterBrushPicker] Verified/cache tileset crafted_03: 0 drawable tiles from 128 candidates.
+LOG  : Lua          f:490> [BetterBrushPicker] Verified/cache tileset crafted_04: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:493> [BetterBrushPicker] Verified/cache tileset crafted_05: 136 drawable tiles from 192 candidates.
+LOG  : Lua          f:495> [BetterBrushPicker] Verified/cache tileset crafting_ore: 55 drawable tiles from 128 candidates.
+LOG  : Lua          f:496> [BetterBrushPicker] Verified/cache tileset d_floorleaves_1: 12 drawable tiles from 32 candidates.
+LOG  : Lua          f:498> [BetterBrushPicker] Verified/cache tileset d_generic_1: 80 drawable tiles from 160 candidates.
+LOG  : Lua          f:500> [BetterBrushPicker] Verified/cache tileset d_plants_1: 64 drawable tiles from 96 candidates.
+LOG  : Lua          f:503> [BetterBrushPicker] Verified/cache tileset d_streetcracks_1: 120 drawable tiles from 256 candidates.
+LOG  : Lua          f:504> [BetterBrushPicker] Verified/cache tileset d_trash_1: 26 drawable tiles from 80 candidates.
+LOG  : Lua          f:506> [BetterBrushPicker] Verified/cache tileset d_wallcracks_1: 72 drawable tiles from 144 candidates.
+LOG  : Lua          f:508> [BetterBrushPicker] Verified/cache tileset damaged_objects_01: 38 drawable tiles from 128 candidates.
+LOG  : Lua          f:510> [BetterBrushPicker] Verified/cache tileset desks_01: 96 drawable tiles from 96 candidates.
+LOG  : Lua          f:511> [BetterBrushPicker] Verified/cache tileset e_americanhollyJUMBOXL_1: 8 drawable tiles from 18 candidates.
+LOG  : Lua          f:512> [BetterBrushPicker] Verified/cache tileset e_americanhollyJUMBOXXL_1: 8 drawable tiles from 18 candidates.
+LOG  : Lua          f:513> [BetterBrushPicker] Verified/cache tileset e_americanhollyJUMBO_1: 5 drawable tiles from 8 candidates.
+LOG  : Lua          f:514> [BetterBrushPicker] Verified/cache tileset e_americanholly_1: 8 drawable tiles from 32 candidates.
+LOG  : Lua          f:515> [BetterBrushPicker] Verified/cache tileset e_americanlindenJUMBOXL_1: 17 drawable tiles from 18 candidates.
+LOG  : Lua          f:516> [BetterBrushPicker] Verified/cache tileset e_americanlindenJUMBOXXL_1: 17 drawable tiles from 18 candidates.
+LOG  : Lua          f:517> [BetterBrushPicker] Verified/cache tileset e_americanlindenJUMBO_1: 12 drawable tiles from 12 candidates.
+LOG  : Lua          f:518> [BetterBrushPicker] Verified/cache tileset e_americanlinden_1: 24 drawable tiles from 32 candidates.
+LOG  : Lua          f:519> [BetterBrushPicker] Verified/cache tileset e_canadianhemlockJUMBOXL_1: 8 drawable tiles from 18 candidates.
+LOG  : Lua          f:520> [BetterBrushPicker] Verified/cache tileset e_canadianhemlockJUMBOXXL_1: 8 drawable tiles from 18 candidates.
+LOG  : Lua          f:521> [BetterBrushPicker] Verified/cache tileset e_canadianhemlockJUMBO_1: 5 drawable tiles from 8 candidates.
+LOG  : Lua          f:522> [BetterBrushPicker] Verified/cache tileset e_canadianhemlock_1: 9 drawable tiles from 32 candidates.
+LOG  : Lua          f:523> [BetterBrushPicker] Verified/cache tileset e_carolinasilverbellJUMBOXL_1: 18 drawable tiles from 18 candidates.
+LOG  : Lua          f:524> [BetterBrushPicker] Verified/cache tileset e_carolinasilverbellJUMBOXXL_1: 18 drawable tiles from 18 candidates.
+LOG  : Lua          f:525> [BetterBrushPicker] Verified/cache tileset e_carolinasilverbellJUMBO_1: 12 drawable tiles from 12 candidates.
+LOG  : Lua          f:526> [BetterBrushPicker] Verified/cache tileset e_carolinasilverbell_1: 24 drawable tiles from 32 candidates.
+LOG  : Lua          f:527> [BetterBrushPicker] Verified/cache tileset e_cockspurhawthornJUMBOXL_1: 17 drawable tiles from 18 candidates.
+LOG  : Lua          f:528> [BetterBrushPicker] Verified/cache tileset e_cockspurhawthornJUMBOXXL_1: 17 drawable tiles from 18 candidates.
+LOG  : Lua          f:529> [BetterBrushPicker] Verified/cache tileset e_cockspurhawthornJUMBO_1: 12 drawable tiles from 12 candidates.
+LOG  : Lua          f:530> [BetterBrushPicker] Verified/cache tileset e_cockspurhawthorn_1: 24 drawable tiles from 32 candidates.
+LOG  : Lua          f:531> [BetterBrushPicker] Verified/cache tileset e_debug_1: 0 drawable tiles from 80 candidates.
+LOG  : Lua          f:532> [BetterBrushPicker] Verified/cache tileset e_dogwoodJUMBOXL_1: 17 drawable tiles from 18 candidates.
+LOG  : Lua          f:533> [BetterBrushPicker] Verified/cache tileset e_dogwoodJUMBOXXL_1: 17 drawable tiles from 18 candidates.
+LOG  : Lua          f:534> [BetterBrushPicker] Verified/cache tileset e_dogwoodJUMBO_1: 12 drawable tiles from 12 candidates.
+LOG  : Lua          f:535> [BetterBrushPicker] Verified/cache tileset e_dogwood_1: 24 drawable tiles from 32 candidates.
+LOG  : Lua          f:536> [BetterBrushPicker] Verified/cache tileset e_easternredbudJUMBOXL_1: 17 drawable tiles from 18 candidates.
+LOG  : Lua          f:537> [BetterBrushPicker] Verified/cache tileset e_easternredbudJUMBOXXL_1: 17 drawable tiles from 18 candidates.
+LOG  : Lua          f:538> [BetterBrushPicker] Verified/cache tileset e_easternredbudJUMBO_1: 12 drawable tiles from 12 candidates.
+LOG  : Lua          f:539> [BetterBrushPicker] Verified/cache tileset e_easternredbud_1: 24 drawable tiles from 32 candidates.
+LOG  : Lua          f:540> [BetterBrushPicker] Verified/cache tileset e_exterior_1: 0 drawable tiles from 64 candidates.
+LOG  : Lua          f:541> [BetterBrushPicker] Verified/cache tileset e_exterior_snow_1: 2 drawable tiles from 4 candidates.
+LOG  : Lua          f:543> [BetterBrushPicker] Verified/cache tileset e_newgrass_1: 92 drawable tiles from 120 candidates.
+LOG  : Lua          f:544> [BetterBrushPicker] Verified/cache tileset e_newgrassbase_1: 0 drawable tiles from 80 candidates.
+LOG  : Lua          f:545> [BetterBrushPicker] Verified/cache tileset e_newgrassbase_snow_1: 16 drawable tiles from 64 candidates.
+LOG  : Lua          f:546> [BetterBrushPicker] Verified/cache tileset e_newsnow_ground_1: 48 drawable tiles from 48 candidates.
+LOG  : Lua          f:547> [BetterBrushPicker] Verified/cache tileset e_redmapleJUMBOXL_1: 17 drawable tiles from 18 candidates.
+LOG  : Lua          f:548> [BetterBrushPicker] Verified/cache tileset e_redmapleJUMBOXXL_1: 17 drawable tiles from 18 candidates.
+LOG  : Lua          f:549> [BetterBrushPicker] Verified/cache tileset e_redmapleJUMBO_1: 12 drawable tiles from 12 candidates.
+LOG  : Lua          f:550> [BetterBrushPicker] Verified/cache tileset e_redmaple_1: 24 drawable tiles from 32 candidates.
+LOG  : Lua          f:551> [BetterBrushPicker] Verified/cache tileset e_riverbirchJUMBOXL_1: 17 drawable tiles from 18 candidates.
+LOG  : Lua          f:552> [BetterBrushPicker] Verified/cache tileset e_riverbirchJUMBOXXL_1: 17 drawable tiles from 18 candidates.
+LOG  : Lua          f:553> [BetterBrushPicker] Verified/cache tileset e_riverbirchJUMBO_1: 12 drawable tiles from 12 candidates.
+LOG  : Lua          f:554> [BetterBrushPicker] Verified/cache tileset e_riverbirch_1: 24 drawable tiles from 32 candidates.
+LOG  : Lua          f:557> [BetterBrushPicker] Verified/cache tileset e_roof_snow_1: 142 drawable tiles from 264 candidates.
+LOG  : Lua          f:559> [BetterBrushPicker] Verified/cache tileset e_roof_snow_30_01: 93 drawable tiles from 136 candidates.
+LOG  : Lua          f:562> [BetterBrushPicker] Verified/cache tileset e_stumps_JUMBOXL: 22 drawable tiles from 192 candidates.
+LOG  : Lua          f:565> [BetterBrushPicker] Verified/cache tileset e_stumps_JUMBOXXL: 23 drawable tiles from 192 candidates.
+LOG  : Lua          f:566> [BetterBrushPicker] Verified/cache tileset e_virginiapineJUMBOXL_1: 8 drawable tiles from 18 candidates.
+LOG  : Lua          f:567> [BetterBrushPicker] Verified/cache tileset e_virginiapineJUMBOXXL_1: 8 drawable tiles from 18 candidates.
+LOG  : Lua          f:568> [BetterBrushPicker] Verified/cache tileset e_virginiapineJUMBO_1: 4 drawable tiles from 8 candidates.
+LOG  : Lua          f:569> [BetterBrushPicker] Verified/cache tileset e_virginiapine_1: 9 drawable tiles from 32 candidates.
+LOG  : Lua          f:570> [BetterBrushPicker] Verified/cache tileset e_yellowwoodJUMBOXL_1: 17 drawable tiles from 18 candidates.
+LOG  : Lua          f:571> [BetterBrushPicker] Verified/cache tileset e_yellowwoodJUMBOXXL_1: 17 drawable tiles from 18 candidates.
+LOG  : Lua          f:572> [BetterBrushPicker] Verified/cache tileset e_yellowwoodJUMBO_1: 12 drawable tiles from 12 candidates.
+LOG  : Lua          f:573> [BetterBrushPicker] Verified/cache tileset e_yellowwood_1: 24 drawable tiles from 32 candidates.
+LOG  : Lua          f:575> [BetterBrushPicker] Verified/cache tileset electricity_pylon: 180 drawable tiles from 184 candidates.
+LOG  : Lua          f:577> [BetterBrushPicker] Verified/cache tileset f_bushes_1: 126 drawable tiles from 128 candidates.
+LOG  : Lua          f:579> [BetterBrushPicker] Verified/cache tileset f_bushes_2: 24 drawable tiles from 160 candidates.
+LOG  : Lua          f:580> [BetterBrushPicker] Verified/cache tileset f_flowerbed_1: 23 drawable tiles from 48 candidates.
+LOG  : Lua          f:581> [BetterBrushPicker] Verified/cache tileset f_wallvines_1: 72 drawable tiles from 72 candidates.
+LOG  : Lua          f:583> [BetterBrushPicker] Verified/cache tileset farm_01: 88 drawable tiles from 104 candidates.
+LOG  : Lua          f:585> [BetterBrushPicker] Verified/cache tileset fencing_01: 94 drawable tiles from 128 candidates.
+LOG  : Lua          f:587> [BetterBrushPicker] Verified/cache tileset fencing_burnt_01: 58 drawable tiles from 128 candidates.
+LOG  : Lua          f:590> [BetterBrushPicker] Verified/cache tileset fencing_damaged_01: 166 drawable tiles from 192 candidates.
+LOG  : Lua          f:593> [BetterBrushPicker] Verified/cache tileset fencing_damaged_02: 163 drawable tiles from 256 candidates.
+LOG  : Lua          f:596> [BetterBrushPicker] Verified/cache tileset fencing_damaged_03: 116 drawable tiles from 192 candidates.
+LOG  : Lua          f:599> [BetterBrushPicker] Verified/cache tileset fencing_damaged_04: 168 drawable tiles from 256 candidates.
+LOG  : Lua          f:602> [BetterBrushPicker] Verified/cache tileset fencing_damaged_05: 164 drawable tiles from 256 candidates.
+LOG  : Lua          f:605> [BetterBrushPicker] Verified/cache tileset fencing_damaged_06: 165 drawable tiles from 256 candidates.
+LOG  : Lua          f:606> [BetterBrushPicker] Verified/cache tileset fixtures_01: 40 drawable tiles from 64 candidates.
+LOG  : Lua          f:607> [BetterBrushPicker] Verified/cache tileset fixtures_bathroom_01: 65 drawable tiles from 80 candidates.
+LOG  : Lua          f:608> [BetterBrushPicker] Verified/cache tileset fixtures_bathroom_02: 30 drawable tiles from 64 candidates.
+LOG  : Lua          f:611> [BetterBrushPicker] Verified/cache tileset fixtures_counters_01: 200 drawable tiles from 224 candidates.
+LOG  : Lua          f:613> [BetterBrushPicker] Verified/cache tileset fixtures_doors_01: 88 drawable tiles from 128 candidates.
+LOG  : Lua          f:615> [BetterBrushPicker] Verified/cache tileset fixtures_doors_02: 52 drawable tiles from 128 candidates.
+LOG  : Lua          f:617> [BetterBrushPicker] Verified/cache tileset fixtures_doors_fences_01: 134 drawable tiles from 160 candidates.
+LOG  : Lua          f:618> [BetterBrushPicker] Verified/cache tileset fixtures_doors_frames_01: 26 drawable tiles from 64 candidates.
+LOG  : Lua          f:619> [BetterBrushPicker] Verified/cache tileset fixtures_escalators_01: 45 drawable tiles from 64 candidates.
+LOG  : Lua          f:620> [BetterBrushPicker] Verified/cache tileset fixtures_fireplaces_01: 64 drawable tiles from 80 candidates.
+LOG  : Lua          f:622> [BetterBrushPicker] Verified/cache tileset fixtures_overlay_counters_01: 64 drawable tiles from 128 candidates.
+LOG  : Lua          f:624> [BetterBrushPicker] Verified/cache tileset fixtures_railings_01: 126 drawable tiles from 144 candidates.
+LOG  : Lua          f:625> [BetterBrushPicker] Verified/cache tileset fixtures_sinks_01: 36 drawable tiles from 64 candidates.
+LOG  : Lua          f:627> [BetterBrushPicker] Verified/cache tileset fixtures_stairs_01: 60 drawable tiles from 128 candidates.
+LOG  : Lua          f:628> [BetterBrushPicker] Verified/cache tileset fixtures_windows_01: 78 drawable tiles from 80 candidates.
+LOG  : Lua          f:630> [BetterBrushPicker] Verified/cache tileset fixtures_windows_church: 96 drawable tiles from 128 candidates.
+LOG  : Lua          f:632> [BetterBrushPicker] Verified/cache tileset fixtures_windows_curtains_01: 97 drawable tiles from 128 candidates.
+LOG  : Lua          f:634> [BetterBrushPicker] Verified/cache tileset fixtures_windows_curtains_01_on: 0 drawable tiles from 128 candidates.
+LOG  : Lua          f:635> [BetterBrushPicker] Verified/cache tileset fixtures_windows_curtains_02: 32 drawable tiles from 64 candidates.
+LOG  : Lua          f:636> [BetterBrushPicker] Verified/cache tileset fixtures_windows_detailing_01: 21 drawable tiles from 64 candidates.
+LOG  : Lua          f:637> [BetterBrushPicker] Verified/cache tileset fixtures_windows_detailing_02: 0 drawable tiles from 64 candidates.
+LOG  : Lua          f:639> [BetterBrushPicker] Verified/cache tileset fixtures_windows_metal: 101 drawable tiles from 128 candidates.
+LOG  : Lua          f:641> [BetterBrushPicker] Verified/cache tileset fixtures_windows_white: 101 drawable tiles from 128 candidates.
+LOG  : Lua          f:643> [BetterBrushPicker] Verified/cache tileset fixtures_windows_wood: 102 drawable tiles from 128 candidates.
+LOG  : Lua          f:645> [BetterBrushPicker] Verified/cache tileset floor_carpet_motif: 16 drawable tiles from 128 candidates.
+LOG  : Lua          f:646> [BetterBrushPicker] Verified/cache tileset floors_burnt_01: 29 drawable tiles from 64 candidates.
+LOG  : Lua          f:647> [BetterBrushPicker] Verified/cache tileset floors_exterior_natural_01: 35 drawable tiles from 64 candidates.
+LOG  : Lua          f:648> [BetterBrushPicker] Verified/cache tileset floors_exterior_street_01: 31 drawable tiles from 64 candidates.
+LOG  : Lua          f:650> [BetterBrushPicker] Verified/cache tileset floors_exterior_tilesandstone_01: 81 drawable tiles from 160 candidates.
+LOG  : Lua          f:651> [BetterBrushPicker] Verified/cache tileset floors_interior_carpet_01: 33 drawable tiles from 64 candidates.
+LOG  : Lua          f:653> [BetterBrushPicker] Verified/cache tileset floors_interior_tilesandwood_01: 73 drawable tiles from 128 candidates.
+LOG  : Lua          f:654> [BetterBrushPicker] Verified/cache tileset floors_overlay_street_01: 64 drawable tiles from 72 candidates.
+LOG  : Lua          f:655> [BetterBrushPicker] Verified/cache tileset floors_overlay_tiles_01: 72 drawable tiles from 72 candidates.
+LOG  : Lua          f:656> [BetterBrushPicker] Verified/cache tileset floors_overlay_tiles_02: 16 drawable tiles from 72 candidates.
+LOG  : Lua          f:658> [BetterBrushPicker] Verified/cache tileset floors_overlay_wood_01: 0 drawable tiles from 144 candidates.
+LOG  : Lua          f:660> [BetterBrushPicker] Verified/cache tileset floors_rugs_01: 129 drawable tiles from 160 candidates.
+LOG  : Lua          f:662> [BetterBrushPicker] Verified/cache tileset floors_rugs_02: 8 drawable tiles from 128 candidates.
+LOG  : Lua          f:664> [BetterBrushPicker] Verified/cache tileset food_01: 108 drawable tiles from 128 candidates.
+LOG  : Lua          f:666> [BetterBrushPicker] Verified/cache tileset food_02: 96 drawable tiles from 128 candidates.
+LOG  : Lua          f:667> [BetterBrushPicker] Verified/cache tileset foraging_01: 18 drawable tiles from 64 candidates.
+LOG  : Lua          f:669> [BetterBrushPicker] Verified/cache tileset furniture_bedding_01: 96 drawable tiles from 128 candidates.
+LOG  : Lua          f:670> [BetterBrushPicker] Verified/cache tileset furniture_seating_indoor_01: 64 drawable tiles from 64 candidates.
+LOG  : Lua          f:671> [BetterBrushPicker] Verified/cache tileset furniture_seating_indoor_02: 64 drawable tiles from 64 candidates.
+LOG  : Lua          f:674> [BetterBrushPicker] Verified/cache tileset furniture_seating_indoor_03: 150 drawable tiles from 240 candidates.
+LOG  : Lua          f:675> [BetterBrushPicker] Verified/cache tileset furniture_seating_outdoor_01: 36 drawable tiles from 64 candidates.
+LOG  : Lua          f:676> [BetterBrushPicker] Verified/cache tileset furniture_shelving_01: 60 drawable tiles from 64 candidates.
+LOG  : Lua          f:678> [BetterBrushPicker] Verified/cache tileset furniture_storage_01: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:680> [BetterBrushPicker] Verified/cache tileset furniture_storage_01_on: 4 drawable tiles from 128 candidates.
+LOG  : Lua          f:681> [BetterBrushPicker] Verified/cache tileset furniture_storage_02: 48 drawable tiles from 64 candidates.
+LOG  : Lua          f:682> [BetterBrushPicker] Verified/cache tileset furniture_tables_high_01: 64 drawable tiles from 64 candidates.
+LOG  : Lua          f:683> [BetterBrushPicker] Verified/cache tileset furniture_tables_high_02: 39 drawable tiles from 64 candidates.
+LOG  : Lua          f:684> [BetterBrushPicker] Verified/cache tileset furniture_tables_low_01: 22 drawable tiles from 64 candidates.
+LOG  : Lua          f:686> [BetterBrushPicker] Verified/cache tileset industry_01: 64 drawable tiles from 96 candidates.
+LOG  : Lua          f:690> [BetterBrushPicker] Verified/cache tileset industry_02: 331 drawable tiles from 368 candidates.
+LOG  : Lua          f:692> [BetterBrushPicker] Verified/cache tileset industry_03: 117 drawable tiles from 128 candidates.
+LOG  : Lua          f:694> [BetterBrushPicker] Verified/cache tileset industry_04: 20 drawable tiles from 128 candidates.
+LOG  : Lua          f:695> [BetterBrushPicker] Verified/cache tileset industry_bunker_01: 24 drawable tiles from 80 candidates.
+LOG  : Lua          f:696> [BetterBrushPicker] Verified/cache tileset industry_railroad_01: 61 drawable tiles from 64 candidates.
+LOG  : Lua          f:697> [BetterBrushPicker] Verified/cache tileset industry_railroad_02: 47 drawable tiles from 64 candidates.
+LOG  : Lua          f:698> [BetterBrushPicker] Verified/cache tileset industry_railroad_03: 54 drawable tiles from 64 candidates.
+LOG  : Lua          f:699> [BetterBrushPicker] Verified/cache tileset industry_railroad_04: 41 drawable tiles from 64 candidates.
+LOG  : Lua          f:700> [BetterBrushPicker] Verified/cache tileset industry_railroad_05: 61 drawable tiles from 64 candidates.
+LOG  : Lua          f:701> [BetterBrushPicker] Verified/cache tileset industry_trucks_01: 65 drawable tiles from 80 candidates.
+LOG  : Lua          f:702> [BetterBrushPicker] Verified/cache tileset industry_trucks_02: 16 drawable tiles from 80 candidates.
+LOG  : Lua          f:703> [BetterBrushPicker] Verified/cache tileset invisible_01: 1 drawable tiles from 64 candidates.
+LOG  : Lua          f:704> [BetterBrushPicker] Verified/cache tileset lighting_indoor_01: 45 drawable tiles from 64 candidates.
+LOG  : Lua          f:705> [BetterBrushPicker] Verified/cache tileset lighting_indoor_01_on: 41 drawable tiles from 64 candidates.
+LOG  : Lua          f:707> [BetterBrushPicker] Verified/cache tileset lighting_indoor_02: 84 drawable tiles from 128 candidates.
+LOG  : Lua          f:709> [BetterBrushPicker] Verified/cache tileset lighting_indoor_02_on: 84 drawable tiles from 128 candidates.
+LOG  : Lua          f:711> [BetterBrushPicker] Verified/cache tileset lighting_indoor_03: 18 drawable tiles from 128 candidates.
+LOG  : Lua          f:713> [BetterBrushPicker] Verified/cache tileset lighting_indoor_03_on: 17 drawable tiles from 128 candidates.
+LOG  : Lua          f:715> [BetterBrushPicker] Verified/cache tileset lighting_outdoor_01: 80 drawable tiles from 128 candidates.
+LOG  : Lua          f:717> [BetterBrushPicker] Verified/cache tileset lighting_outdoor_01_on: 51 drawable tiles from 128 candidates.
+LOG  : Lua          f:718> [BetterBrushPicker] Verified/cache tileset location_barn_01: 47 drawable tiles from 64 candidates.
+LOG  : Lua          f:720> [BetterBrushPicker] Verified/cache tileset location_business_bank_01: 75 drawable tiles from 128 candidates.
+LOG  : Lua          f:722> [BetterBrushPicker] Verified/cache tileset location_business_distillery_01: 23 drawable tiles from 128 candidates.
+LOG  : Lua          f:723> [BetterBrushPicker] Verified/cache tileset location_business_machinery_01: 49 drawable tiles from 64 candidates.
+LOG  : Lua          f:726> [BetterBrushPicker] Verified/cache tileset location_business_office_generic_01: 190 drawable tiles from 232 candidates.
+LOG  : Lua          f:728> [BetterBrushPicker] Verified/cache tileset location_business_office_generic_02: 24 drawable tiles from 128 candidates.
+LOG  : Lua          f:729> [BetterBrushPicker] Verified/cache tileset location_community_cemetary_01: 40 drawable tiles from 80 candidates.
+LOG  : Lua          f:732> [BetterBrushPicker] Verified/cache tileset location_community_church_small_01: 258 drawable tiles from 272 candidates.
+LOG  : Lua          f:734> [BetterBrushPicker] Verified/cache tileset location_community_church_small_01_on: 2 drawable tiles from 128 candidates.
+LOG  : Lua          f:737> [BetterBrushPicker] Verified/cache tileset location_community_medical_01: 226 drawable tiles from 256 candidates.
+LOG  : Lua          f:739> [BetterBrushPicker] Verified/cache tileset location_community_medical_01_on: 6 drawable tiles from 128 candidates.
+LOG  : Lua          f:740> [BetterBrushPicker] Verified/cache tileset location_community_park_01: 47 drawable tiles from 80 candidates.
+LOG  : Lua          f:742> [BetterBrushPicker] Verified/cache tileset location_community_police_01: 101 drawable tiles from 128 candidates.
+LOG  : Lua          f:744> [BetterBrushPicker] Verified/cache tileset location_community_police_01_on: 15 drawable tiles from 128 candidates.
+LOG  : Lua          f:746> [BetterBrushPicker] Verified/cache tileset location_community_school_01: 80 drawable tiles from 128 candidates.
+LOG  : Lua          f:748> [BetterBrushPicker] Verified/cache tileset location_community_school_02: 48 drawable tiles from 128 candidates.
+LOG  : Lua          f:750> [BetterBrushPicker] Verified/cache tileset location_community_school_overlays: 42 drawable tiles from 128 candidates.
+LOG  : Lua          f:752> [BetterBrushPicker] Verified/cache tileset location_community_school_overlays_black: 42 drawable tiles from 128 candidates.
+LOG  : Lua          f:754> [BetterBrushPicker] Verified/cache tileset location_entertainment_gallery_01: 124 drawable tiles from 128 candidates.
+LOG  : Lua          f:756> [BetterBrushPicker] Verified/cache tileset location_entertainment_gallery_02: 71 drawable tiles from 128 candidates.
+LOG  : Lua          f:760> [BetterBrushPicker] Verified/cache tileset location_entertainment_theatre_01: 266 drawable tiles from 288 candidates.
+LOG  : Lua          f:764> [BetterBrushPicker] Verified/cache tileset location_entertainment_theatre_01_on: 163 drawable tiles from 288 candidates.
+LOG  : Lua          f:767> [BetterBrushPicker] Verified/cache tileset location_farm_accesories_01: 114 drawable tiles from 208 candidates.
+LOG  : Lua          f:768> [BetterBrushPicker] Verified/cache tileset location_hospitality_sunstarmotel_01: 60 drawable tiles from 72 candidates.
+LOG  : Lua          f:769> [BetterBrushPicker] Verified/cache tileset location_hospitality_sunstarmotel_02: 56 drawable tiles from 64 candidates.
+LOG  : Lua          f:770> [BetterBrushPicker] Verified/cache tileset location_hospitality_sunstarmotel_02_on: 6 drawable tiles from 64 candidates.
+LOG  : Lua          f:772> [BetterBrushPicker] Verified/cache tileset location_military_generic_01: 71 drawable tiles from 128 candidates.
+LOG  : Lua          f:773> [BetterBrushPicker] Verified/cache tileset location_military_knox_01: 27 drawable tiles from 64 candidates.
+LOG  : Lua          f:775> [BetterBrushPicker] Verified/cache tileset location_military_tent_01: 104 drawable tiles from 128 candidates.
+LOG  : Lua          f:777> [BetterBrushPicker] Verified/cache tileset location_restaurant_bar_01: 105 drawable tiles from 144 candidates.
+LOG  : Lua          f:779> [BetterBrushPicker] Verified/cache tileset location_restaurant_bar_01_on: 2 drawable tiles from 96 candidates.
+LOG  : Lua          f:780> [BetterBrushPicker] Verified/cache tileset location_restaurant_bar_smutz: 32 drawable tiles from 80 candidates.
+LOG  : Lua          f:781> [BetterBrushPicker] Verified/cache tileset location_restaurant_diner_01: 57 drawable tiles from 64 candidates.
+LOG  : Lua          f:782> [BetterBrushPicker] Verified/cache tileset location_restaurant_diner_01_on: 11 drawable tiles from 64 candidates.
+LOG  : Lua          f:783> [BetterBrushPicker] Verified/cache tileset location_restaurant_generic_01: 54 drawable tiles from 64 candidates.
+LOG  : Lua          f:784> [BetterBrushPicker] Verified/cache tileset location_restaurant_pie_01: 41 drawable tiles from 64 candidates.
+LOG  : Lua          f:785> [BetterBrushPicker] Verified/cache tileset location_restaurant_pileocrepe_01: 59 drawable tiles from 64 candidates.
+LOG  : Lua          f:786> [BetterBrushPicker] Verified/cache tileset location_restaurant_pileocrepe_01_on: 10 drawable tiles from 64 candidates.
+LOG  : Lua          f:788> [BetterBrushPicker] Verified/cache tileset location_restaurant_pizzawhirled_01: 78 drawable tiles from 128 candidates.
+LOG  : Lua          f:790> [BetterBrushPicker] Verified/cache tileset location_restaurant_pizzawhirled_01_on: 22 drawable tiles from 128 candidates.
+LOG  : Lua          f:792> [BetterBrushPicker] Verified/cache tileset location_restaurant_seahorse_01: 76 drawable tiles from 128 candidates.
+LOG  : Lua          f:793> [BetterBrushPicker] Verified/cache tileset location_restaurant_spiffos_01: 80 drawable tiles from 80 candidates.
+LOG  : Lua          f:794> [BetterBrushPicker] Verified/cache tileset location_restaurant_spiffos_02: 62 drawable tiles from 64 candidates.
+LOG  : Lua          f:795> [BetterBrushPicker] Verified/cache tileset location_restaurant_spiffos_02_on: 24 drawable tiles from 64 candidates.
+LOG  : Lua          f:796> [BetterBrushPicker] Verified/cache tileset location_restaurant_spiffos_03: 44 drawable tiles from 64 candidates.
+LOG  : Lua          f:797> [BetterBrushPicker] Verified/cache tileset location_restaurant_spiffos_03_on: 12 drawable tiles from 64 candidates.
+LOG  : Lua          f:798> [BetterBrushPicker] Verified/cache tileset location_services_beauty_01: 12 drawable tiles from 80 candidates.
+LOG  : Lua          f:799> [BetterBrushPicker] Verified/cache tileset location_sewer_01: 47 drawable tiles from 64 candidates.
+LOG  : Lua          f:800> [BetterBrushPicker] Verified/cache tileset location_shop_accessories_01: 32 drawable tiles from 64 candidates.
+LOG  : Lua          f:801> [BetterBrushPicker] Verified/cache tileset location_shop_accessories_01_on: 6 drawable tiles from 64 candidates.
+LOG  : Lua          f:803> [BetterBrushPicker] Verified/cache tileset location_shop_accessories_genericsigns_01: 85 drawable tiles from 128 candidates.
+LOG  : Lua          f:805> [BetterBrushPicker] Verified/cache tileset location_shop_accessories_genericsigns_01_on: 40 drawable tiles from 128 candidates.
+LOG  : Lua          f:806> [BetterBrushPicker] Verified/cache tileset location_shop_bargNclothes_01: 60 drawable tiles from 80 candidates.
+LOG  : Lua          f:807> [BetterBrushPicker] Verified/cache tileset location_shop_bargNclothes_01_on: 2 drawable tiles from 64 candidates.
+LOG  : Lua          f:809> [BetterBrushPicker] Verified/cache tileset location_shop_fossoil_01: 109 drawable tiles from 128 candidates.
+LOG  : Lua          f:811> [BetterBrushPicker] Verified/cache tileset location_shop_fossoil_01_on: 10 drawable tiles from 128 candidates.
+LOG  : Lua          f:813> [BetterBrushPicker] Verified/cache tileset location_shop_gas2go_01: 96 drawable tiles from 96 candidates.
+LOG  : Lua          f:814> [BetterBrushPicker] Verified/cache tileset location_shop_gas2go_01_on: 4 drawable tiles from 64 candidates.
+LOG  : Lua          f:816> [BetterBrushPicker] Verified/cache tileset location_shop_generic_01: 120 drawable tiles from 128 candidates.
+LOG  : Lua          f:817> [BetterBrushPicker] Verified/cache tileset location_shop_greenes_01: 70 drawable tiles from 80 candidates.
+LOG  : Lua          f:818> [BetterBrushPicker] Verified/cache tileset location_shop_greenes_01_on: 10 drawable tiles from 80 candidates.
+LOG  : Lua          f:820> [BetterBrushPicker] Verified/cache tileset location_shop_mall_01: 84 drawable tiles from 128 candidates.
+LOG  : Lua          f:822> [BetterBrushPicker] Verified/cache tileset location_shop_mall_signs_01: 130 drawable tiles from 144 candidates.
+LOG  : Lua          f:824> [BetterBrushPicker] Verified/cache tileset location_shop_mall_signs_01_on: 78 drawable tiles from 144 candidates.
+LOG  : Lua          f:826> [BetterBrushPicker] Verified/cache tileset location_shop_mall_signs_02: 53 drawable tiles from 144 candidates.
+LOG  : Lua          f:828> [BetterBrushPicker] Verified/cache tileset location_shop_mall_signs_02_on: 43 drawable tiles from 144 candidates.
+LOG  : Lua          f:829> [BetterBrushPicker] Verified/cache tileset location_shop_zippee_01: 64 drawable tiles from 64 candidates.
+LOG  : Lua          f:830> [BetterBrushPicker] Verified/cache tileset location_shop_zippee_01_on: 10 drawable tiles from 64 candidates.
+LOG  : Lua          f:831> [BetterBrushPicker] Verified/cache tileset location_trailer_01: 56 drawable tiles from 64 candidates.
+LOG  : Lua          f:832> [BetterBrushPicker] Verified/cache tileset location_trailer_02: 65 drawable tiles from 80 candidates.
+LOG  : Lua          f:835> [BetterBrushPicker] Verified/cache tileset object_snow_overlay_01: 227 drawable tiles from 256 candidates.
+LOG  : Lua          f:839> [BetterBrushPicker] Verified/cache tileset object_snow_overlay_02: 319 drawable tiles from 328 candidates.
+LOG  : Lua          f:843> [BetterBrushPicker] Verified/cache tileset object_snow_overlay_03: 247 drawable tiles from 320 candidates.
+LOG  : Lua          f:847> [BetterBrushPicker] Verified/cache tileset object_snow_overlay_04: 243 drawable tiles from 328 candidates.
+LOG  : Lua          f:848> [BetterBrushPicker] Verified/cache tileset office_01: 32 drawable tiles from 64 candidates.
+LOG  : Lua          f:849> [BetterBrushPicker] Verified/cache tileset overlay_blood_fence_01: 24 drawable tiles from 64 candidates.
+LOG  : Lua          f:850> [BetterBrushPicker] Verified/cache tileset overlay_blood_floor_01: 43 drawable tiles from 64 candidates.
+LOG  : Lua          f:851> [BetterBrushPicker] Verified/cache tileset overlay_blood_wall_01: 64 drawable tiles from 64 candidates.
+LOG  : Lua          f:853> [BetterBrushPicker] Verified/cache tileset overlay_graffiti_wall_01: 112 drawable tiles from 128 candidates.
+LOG  : Lua          f:855> [BetterBrushPicker] Verified/cache tileset overlay_grime_floor_01: 84 drawable tiles from 96 candidates.
+LOG  : Lua          f:856> [BetterBrushPicker] Verified/cache tileset overlay_grime_wall_01: 46 drawable tiles from 64 candidates.
+LOG  : Lua          f:857> [BetterBrushPicker] Verified/cache tileset overlay_messages_wall_01: 36 drawable tiles from 64 candidates.
+LOG  : Lua          f:858> [BetterBrushPicker] Verified/cache tileset papernotices_01: 10 drawable tiles from 64 candidates.
+LOG  : Lua          f:859> [BetterBrushPicker] Verified/cache tileset preset_depthmaps_01: 7 drawable tiles from 8 candidates.
+LOG  : Lua          f:861> [BetterBrushPicker] Verified/cache tileset radio_tower: 112 drawable tiles from 128 candidates.
+LOG  : Lua          f:864> [BetterBrushPicker] Verified/cache tileset ramps_01: 81 drawable tiles from 256 candidates.
+LOG  : Lua          f:866> [BetterBrushPicker] Verified/cache tileset recreational_01: 96 drawable tiles from 128 candidates.
+LOG  : Lua          f:868> [BetterBrushPicker] Verified/cache tileset recreational_01_on: 17 drawable tiles from 128 candidates.
+LOG  : Lua          f:871> [BetterBrushPicker] Verified/cache tileset recreational_sports_01: 141 drawable tiles from 256 candidates.
+LOG  : Lua          f:873> [BetterBrushPicker] Verified/cache tileset roofs_01: 130 drawable tiles from 136 candidates.
+LOG  : Lua          f:875> [BetterBrushPicker] Verified/cache tileset roofs_02: 116 drawable tiles from 128 candidates.
+LOG  : Lua          f:877> [BetterBrushPicker] Verified/cache tileset roofs_03: 92 drawable tiles from 128 candidates.
+LOG  : Lua          f:879> [BetterBrushPicker] Verified/cache tileset roofs_04: 90 drawable tiles from 120 candidates.
+LOG  : Lua          f:881> [BetterBrushPicker] Verified/cache tileset roofs_05: 170 drawable tiles from 184 candidates.
+LOG  : Lua          f:883> [BetterBrushPicker] Verified/cache tileset roofs_30_01: 93 drawable tiles from 128 candidates.
+LOG  : Lua          f:885> [BetterBrushPicker] Verified/cache tileset roofs_30_02: 93 drawable tiles from 128 candidates.
+LOG  : Lua          f:887> [BetterBrushPicker] Verified/cache tileset roofs_30_03: 90 drawable tiles from 128 candidates.
+LOG  : Lua          f:889> [BetterBrushPicker] Verified/cache tileset roofs_30_04: 90 drawable tiles from 128 candidates.
+LOG  : Lua          f:891> [BetterBrushPicker] Verified/cache tileset roofs_30_05: 93 drawable tiles from 128 candidates.
+LOG  : Lua          f:893> [BetterBrushPicker] Verified/cache tileset roofs_30_06: 93 drawable tiles from 128 candidates.
+LOG  : Lua          f:895> [BetterBrushPicker] Verified/cache tileset roofs_30_07: 90 drawable tiles from 128 candidates.
+LOG  : Lua          f:897> [BetterBrushPicker] Verified/cache tileset roofs_30_08: 90 drawable tiles from 128 candidates.
+LOG  : Lua          f:899> [BetterBrushPicker] Verified/cache tileset roofs_30_09: 90 drawable tiles from 128 candidates.
+LOG  : Lua          f:901> [BetterBrushPicker] Verified/cache tileset roofs_30_10: 90 drawable tiles from 128 candidates.
+LOG  : Lua          f:902> [BetterBrushPicker] Verified/cache tileset roofs_accents_01: 55 drawable tiles from 80 candidates.
+LOG  : Lua          f:904> [BetterBrushPicker] Verified/cache tileset roofs_accents_30_01: 40 drawable tiles from 128 candidates.
+LOG  : Lua          f:906> [BetterBrushPicker] Verified/cache tileset roofs_burnt_01: 95 drawable tiles from 152 candidates.
+LOG  : Lua          f:908> [BetterBrushPicker] Verified/cache tileset roofs_burnt_30_01: 90 drawable tiles from 136 candidates.
+LOG  : Lua          f:911> [BetterBrushPicker] Verified/cache tileset roofs_shallow_01: 144 drawable tiles from 192 candidates.
+LOG  : Lua          f:913> [BetterBrushPicker] Verified/cache tileset rooftop_furniture: 51 drawable tiles from 128 candidates.
+LOG  : Lua          f:915> [BetterBrushPicker] Verified/cache tileset rugs_animals: 103 drawable tiles from 128 candidates.
+LOG  : Lua          f:916> [BetterBrushPicker] Verified/cache tileset seating_01: 50 drawable tiles from 64 candidates.
+LOG  : Lua          f:917> [BetterBrushPicker] Verified/cache tileset security_01: 6 drawable tiles from 80 candidates.
+LOG  : Lua          f:919> [BetterBrushPicker] Verified/cache tileset signs_church: 32 drawable tiles from 128 candidates.
+LOG  : Lua          f:921> [BetterBrushPicker] Verified/cache tileset signs_church_on: 32 drawable tiles from 128 candidates.
+LOG  : Lua          f:923> [BetterBrushPicker] Verified/cache tileset signs_miscbrands_01: 113 drawable tiles from 128 candidates.
+LOG  : Lua          f:925> [BetterBrushPicker] Verified/cache tileset signs_miscbrands_01_on: 79 drawable tiles from 128 candidates.
+LOG  : Lua          f:927> [BetterBrushPicker] Verified/cache tileset signs_one-off_01: 118 drawable tiles from 128 candidates.
+LOG  : Lua          f:929> [BetterBrushPicker] Verified/cache tileset signs_one-off_01_on: 31 drawable tiles from 128 candidates.
+LOG  : Lua          f:935> [BetterBrushPicker] Verified/cache tileset signs_one-off_02: 502 drawable tiles from 512 candidates.
+LOG  : Lua          f:941> [BetterBrushPicker] Verified/cache tileset signs_one-off_02_on: 106 drawable tiles from 512 candidates.
+LOG  : Lua          f:947> [BetterBrushPicker] Verified/cache tileset signs_one-off_03: 510 drawable tiles from 512 candidates.
+LOG  : Lua          f:953> [BetterBrushPicker] Verified/cache tileset signs_one-off_03_on: 168 drawable tiles from 512 candidates.
+LOG  : Lua          f:959> [BetterBrushPicker] Verified/cache tileset signs_one-off_04: 511 drawable tiles from 512 candidates.
+LOG  : Lua          f:965> [BetterBrushPicker] Verified/cache tileset signs_one-off_04_on: 78 drawable tiles from 512 candidates.
+LOG  : Lua          f:971> [BetterBrushPicker] Verified/cache tileset signs_one-off_05: 508 drawable tiles from 512 candidates.
+LOG  : Lua          f:977> [BetterBrushPicker] Verified/cache tileset signs_one-off_05_on: 157 drawable tiles from 512 candidates.
+LOG  : Lua          f:981> [BetterBrushPicker] Verified/cache tileset signs_one-off_06: 314 drawable tiles from 320 candidates.
+LOG  : Lua          f:985> [BetterBrushPicker] Verified/cache tileset signs_one-off_06_on: 60 drawable tiles from 320 candidates.
+LOG  : Lua          f:989> [BetterBrushPicker] Verified/cache tileset signs_one-off_07: 282 drawable tiles from 320 candidates.
+LOG  : Lua          f:993> [BetterBrushPicker] Verified/cache tileset signs_one-off_07_on: 11 drawable tiles from 320 candidates.
+LOG  : Lua          f:997> [BetterBrushPicker] Verified/cache tileset signs_one-off_08: 351 drawable tiles from 360 candidates.
+LOG  : Lua          f:1001> [BetterBrushPicker] Verified/cache tileset signs_one-off_08_on: 39 drawable tiles from 360 candidates.
+LOG  : Lua          f:1007> [BetterBrushPicker] Verified/cache tileset signs_one-off_09: 314 drawable tiles from 512 candidates.
+LOG  : Lua          f:1013> [BetterBrushPicker] Verified/cache tileset signs_one-off_09_on: 99 drawable tiles from 512 candidates.
+LOG  : Lua          f:1015> [BetterBrushPicker] Verified/cache tileset signs_one-off_lights_01: 32 drawable tiles from 128 candidates.
+LOG  : Lua          f:1017> [BetterBrushPicker] Verified/cache tileset signs_one-off_lights_01_on: 29 drawable tiles from 128 candidates.
+LOG  : Lua          f:1019> [BetterBrushPicker] Verified/cache tileset stashes_01: 14 drawable tiles from 128 candidates.
+LOG  : Lua          f:1021> [BetterBrushPicker] Verified/cache tileset steamboat: 33 drawable tiles from 128 candidates.
+LOG  : Lua          f:1022> [BetterBrushPicker] Verified/cache tileset storage_01: 72 drawable tiles from 80 candidates.
+LOG  : Lua          f:1023> [BetterBrushPicker] Verified/cache tileset street_curbs_01: 56 drawable tiles from 80 candidates.
+LOG  : Lua          f:1024> [BetterBrushPicker] Verified/cache tileset street_curbs_01_blend_dark_grass: 88 drawable tiles from 88 candidates.
+LOG  : Lua          f:1025> [BetterBrushPicker] Verified/cache tileset street_curbs_01_blend_dirt: 88 drawable tiles from 88 candidates.
+LOG  : Lua          f:1026> [BetterBrushPicker] Verified/cache tileset street_curbs_01_blend_gravel: 88 drawable tiles from 88 candidates.
+LOG  : Lua          f:1027> [BetterBrushPicker] Verified/cache tileset street_curbs_01_blend_light_grass: 88 drawable tiles from 88 candidates.
+LOG  : Lua          f:1028> [BetterBrushPicker] Verified/cache tileset street_curbs_01_blend_medium_grass: 88 drawable tiles from 88 candidates.
+LOG  : Lua          f:1029> [BetterBrushPicker] Verified/cache tileset street_curbs_01_blend_sand: 88 drawable tiles from 88 candidates.
+LOG  : Lua          f:1030> [BetterBrushPicker] Verified/cache tileset street_curbs_01_blend_street: 88 drawable tiles from 88 candidates.
+LOG  : Lua          f:1031> [BetterBrushPicker] Verified/cache tileset street_curbs_01_diag: 73 drawable tiles from 80 candidates.
+LOG  : Lua          f:1032> [BetterBrushPicker] Verified/cache tileset street_curbs_01_diag_2: 74 drawable tiles from 80 candidates.
+LOG  : Lua          f:1034> [BetterBrushPicker] Verified/cache tileset street_decoration_01: 81 drawable tiles from 128 candidates.
+LOG  : Lua          f:1035> [BetterBrushPicker] Verified/cache tileset street_roadsigns_01: 37 drawable tiles from 80 candidates.
+LOG  : Lua          f:1036> [BetterBrushPicker] Verified/cache tileset street_trafficlines_01: 49 drawable tiles from 64 candidates.
+LOG  : Lua          f:1038> [BetterBrushPicker] Verified/cache tileset street_trafficlines_curb_white_faded: 155 drawable tiles from 160 candidates.
+LOG  : Lua          f:1040> [BetterBrushPicker] Verified/cache tileset street_trafficlines_curb_white_full: 155 drawable tiles from 160 candidates.
+LOG  : Lua          f:1042> [BetterBrushPicker] Verified/cache tileset street_trafficlines_curb_yellow_faded: 155 drawable tiles from 160 candidates.
+LOG  : Lua          f:1044> [BetterBrushPicker] Verified/cache tileset street_trafficlines_curb_yellow_full: 155 drawable tiles from 160 candidates.
+LOG  : Lua          f:1045> [BetterBrushPicker] Verified/cache tileset trash&junk_01: 4 drawable tiles from 80 candidates.
+LOG  : Lua          f:1046> [BetterBrushPicker] Verified/cache tileset trash_01: 51 drawable tiles from 64 candidates.
+LOG  : Lua          f:1047> [BetterBrushPicker] Verified/cache tileset trash_walls_01: 10 drawable tiles from 64 candidates.
+LOG  : Lua          f:1048> [BetterBrushPicker] Verified/cache tileset trashcontainers_01: 29 drawable tiles from 64 candidates.
+LOG  : Lua          f:1050> [BetterBrushPicker] Verified/cache tileset underground_01: 6 drawable tiles from 160 candidates.
+LOG  : Lua          f:1053> [BetterBrushPicker] Verified/cache tileset vegetation_drying_01: 148 drawable tiles from 240 candidates.
+LOG  : Lua          f:1056> [BetterBrushPicker] Verified/cache tileset vegetation_drying_02: 84 drawable tiles from 240 candidates.
+LOG  : Lua          f:1057> [BetterBrushPicker] Verified/cache tileset vegetation_farm_01: 36 drawable tiles from 64 candidates.
+LOG  : Lua          f:1059> [BetterBrushPicker] Verified/cache tileset vegetation_farming_01: 133 drawable tiles from 160 candidates.
+LOG  : Lua          f:1061> [BetterBrushPicker] Verified/cache tileset vegetation_farming_01b: 136 drawable tiles from 160 candidates.
+LOG  : Lua          f:1063> [BetterBrushPicker] Verified/cache tileset vegetation_farming_02: 120 drawable tiles from 160 candidates.
+LOG  : Lua          f:1065> [BetterBrushPicker] Verified/cache tileset vegetation_farming_dead_01: 133 drawable tiles from 160 candidates.
+LOG  : Lua          f:1067> [BetterBrushPicker] Verified/cache tileset vegetation_farming_dead_01b: 136 drawable tiles from 160 candidates.
+LOG  : Lua          f:1069> [BetterBrushPicker] Verified/cache tileset vegetation_farming_dead_02: 120 drawable tiles from 160 candidates.
+LOG  : Lua          f:1071> [BetterBrushPicker] Verified/cache tileset vegetation_farming_dying_01: 133 drawable tiles from 160 candidates.
+LOG  : Lua          f:1073> [BetterBrushPicker] Verified/cache tileset vegetation_farming_dying_01b: 136 drawable tiles from 160 candidates.
+LOG  : Lua          f:1075> [BetterBrushPicker] Verified/cache tileset vegetation_farming_dying_02: 120 drawable tiles from 160 candidates.
+LOG  : Lua          f:1077> [BetterBrushPicker] Verified/cache tileset vegetation_farming_trampled_01: 133 drawable tiles from 160 candidates.
+LOG  : Lua          f:1079> [BetterBrushPicker] Verified/cache tileset vegetation_farming_trampled_01b: 136 drawable tiles from 160 candidates.
+LOG  : Lua          f:1081> [BetterBrushPicker] Verified/cache tileset vegetation_farming_trampled_02: 120 drawable tiles from 160 candidates.
+LOG  : Lua          f:1083> [BetterBrushPicker] Verified/cache tileset vegetation_farming_unhealthy_01: 133 drawable tiles from 160 candidates.
+LOG  : Lua          f:1085> [BetterBrushPicker] Verified/cache tileset vegetation_farming_unhealthy_01b: 136 drawable tiles from 160 candidates.
+LOG  : Lua          f:1087> [BetterBrushPicker] Verified/cache tileset vegetation_farming_unhealthy_02: 120 drawable tiles from 160 candidates.
+LOG  : Lua          f:1088> [BetterBrushPicker] Verified/cache tileset vegetation_foliage_01: 13 drawable tiles from 64 candidates.
+LOG  : Lua          f:1090> [BetterBrushPicker] Verified/cache tileset vegetation_gardening_01: 102 drawable tiles from 160 candidates.
+LOG  : Lua          f:1092> [BetterBrushPicker] Verified/cache tileset vegetation_gardening_dead_01: 102 drawable tiles from 160 candidates.
+LOG  : Lua          f:1094> [BetterBrushPicker] Verified/cache tileset vegetation_gardening_dying_01: 102 drawable tiles from 160 candidates.
+LOG  : Lua          f:1096> [BetterBrushPicker] Verified/cache tileset vegetation_gardening_trampled_01: 19 drawable tiles from 160 candidates.
+LOG  : Lua          f:1098> [BetterBrushPicker] Verified/cache tileset vegetation_gardening_unhealthy_01: 102 drawable tiles from 160 candidates.
+LOG  : Lua          f:1099> [BetterBrushPicker] Verified/cache tileset vegetation_groundcover_01: 0 drawable tiles from 64 candidates.
+LOG  : Lua          f:1100> [BetterBrushPicker] Verified/cache tileset vegetation_indoor_01: 31 drawable tiles from 64 candidates.
+LOG  : Lua          f:1101> [BetterBrushPicker] Verified/cache tileset vegetation_ornamental_01: 50 drawable tiles from 64 candidates.
+LOG  : Lua          f:1102> [BetterBrushPicker] Verified/cache tileset vegetation_trees_01: 0 drawable tiles from 64 candidates.
+LOG  : Lua          f:1103> [BetterBrushPicker] Verified/cache tileset vegetation_wall_01: 0 drawable tiles from 64 candidates.
+LOG  : Lua          f:1104> [BetterBrushPicker] Verified/cache tileset walls_burnt_01: 16 drawable tiles from 64 candidates.
+LOG  : Lua          f:1105> [BetterBrushPicker] Verified/cache tileset walls_burnt_roofs_01: 60 drawable tiles from 80 candidates.
+LOG  : Lua          f:1107> [BetterBrushPicker] Verified/cache tileset walls_commercial_01: 105 drawable tiles from 128 candidates.
+LOG  : Lua          f:1108> [BetterBrushPicker] Verified/cache tileset walls_commercial_02: 84 drawable tiles from 88 candidates.
+LOG  : Lua          f:1110> [BetterBrushPicker] Verified/cache tileset walls_commercial_03: 96 drawable tiles from 96 candidates.
+LOG  : Lua          f:1113> [BetterBrushPicker] Verified/cache tileset walls_decoration_01: 166 drawable tiles from 192 candidates.
+LOG  : Lua          f:1116> [BetterBrushPicker] Verified/cache tileset walls_decoration_01_on: 12 drawable tiles from 192 candidates.
+LOG  : Lua          f:1119> [BetterBrushPicker] Verified/cache tileset walls_decoration_02: 192 drawable tiles from 192 candidates.
+LOG  : Lua          f:1122> [BetterBrushPicker] Verified/cache tileset walls_decoration_03: 168 drawable tiles from 192 candidates.
+LOG  : Lua          f:1124> [BetterBrushPicker] Verified/cache tileset walls_decoration_04: 108 drawable tiles from 112 candidates.
+LOG  : Lua          f:1127> [BetterBrushPicker] Verified/cache tileset walls_decoration_05: 200 drawable tiles from 200 candidates.
+LOG  : Lua          f:1129> [BetterBrushPicker] Verified/cache tileset walls_decoration_06: 108 drawable tiles from 128 candidates.
+LOG  : Lua          f:1131> [BetterBrushPicker] Verified/cache tileset walls_detailing_01: 94 drawable tiles from 128 candidates.
+LOG  : Lua          f:1133> [BetterBrushPicker] Verified/cache tileset walls_detailing_02: 90 drawable tiles from 128 candidates.
+LOG  : Lua          f:1135> [BetterBrushPicker] Verified/cache tileset walls_exterior_house_01: 60 drawable tiles from 128 candidates.
+LOG  : Lua          f:1137> [BetterBrushPicker] Verified/cache tileset walls_exterior_house_02: 104 drawable tiles from 128 candidates.
+LOG  : Lua          f:1138> [BetterBrushPicker] Verified/cache tileset walls_exterior_house_03: 38 drawable tiles from 64 candidates.
+LOG  : Lua          f:1140> [BetterBrushPicker] Verified/cache tileset walls_exterior_house_04: 80 drawable tiles from 128 candidates.
+LOG  : Lua          f:1142> [BetterBrushPicker] Verified/cache tileset walls_exterior_house_05: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1144> [BetterBrushPicker] Verified/cache tileset walls_exterior_house_06: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1146> [BetterBrushPicker] Verified/cache tileset walls_exterior_house_07: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1148> [BetterBrushPicker] Verified/cache tileset walls_exterior_house_08: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1150> [BetterBrushPicker] Verified/cache tileset walls_exterior_house_09: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1152> [BetterBrushPicker] Verified/cache tileset walls_exterior_house_10: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1154> [BetterBrushPicker] Verified/cache tileset walls_exterior_house_11: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1156> [BetterBrushPicker] Verified/cache tileset walls_exterior_house_12: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1158> [BetterBrushPicker] Verified/cache tileset walls_exterior_house_13: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1160> [BetterBrushPicker] Verified/cache tileset walls_exterior_house_low_01: 132 drawable tiles from 144 candidates.
+LOG  : Lua          f:1163> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_01: 240 drawable tiles from 256 candidates.
+LOG  : Lua          f:1166> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_02: 128 drawable tiles from 256 candidates.
+LOG  : Lua          f:1167> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_03: 60 drawable tiles from 80 candidates.
+LOG  : Lua          f:1168> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_04: 60 drawable tiles from 80 candidates.
+LOG  : Lua          f:1169> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_05: 63 drawable tiles from 80 candidates.
+LOG  : Lua          f:1170> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_06: 60 drawable tiles from 64 candidates.
+LOG  : Lua          f:1171> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_07: 60 drawable tiles from 80 candidates.
+LOG  : Lua          f:1172> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_08: 60 drawable tiles from 80 candidates.
+LOG  : Lua          f:1175> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_09: 180 drawable tiles from 192 candidates.
+LOG  : Lua          f:1178> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_10: 240 drawable tiles from 256 candidates.
+LOG  : Lua          f:1180> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_01: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:1182> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_02: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:1184> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_03: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:1186> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_04: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:1188> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_05: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:1190> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_06: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:1192> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_07: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:1194> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_08: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:1196> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_09: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:1198> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_10: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:1200> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_11: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:1202> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_12: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:1204> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_13: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:1206> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_14: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:1208> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_15: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:1210> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_16: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:1212> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_17: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:1214> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_18: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:1216> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_19: 36 drawable tiles from 128 candidates.
+LOG  : Lua          f:1218> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_20: 72 drawable tiles from 128 candidates.
+LOG  : Lua          f:1220> [BetterBrushPicker] Verified/cache tileset walls_exterior_roofs_30_burnt_01: 36 drawable tiles from 128 candidates.
+LOG  : Lua          f:1221> [BetterBrushPicker] Verified/cache tileset walls_exterior_wooden_01: 73 drawable tiles from 80 candidates.
+LOG  : Lua          f:1222> [BetterBrushPicker] Verified/cache tileset walls_exterior_wooden_02: 24 drawable tiles from 64 candidates.
+LOG  : Lua          f:1223> [BetterBrushPicker] Verified/cache tileset walls_garage_01: 55 drawable tiles from 64 candidates.
+LOG  : Lua          f:1224> [BetterBrushPicker] Verified/cache tileset walls_garage_02: 48 drawable tiles from 64 candidates.
+LOG  : Lua          f:1225> [BetterBrushPicker] Verified/cache tileset walls_house_blocks_01: 39 drawable tiles from 64 candidates.
+LOG  : Lua          f:1226> [BetterBrushPicker] Verified/cache tileset walls_house_blocks_01_MIRRORED: 39 drawable tiles from 64 candidates.
+LOG  : Lua          f:1227> [BetterBrushPicker] Verified/cache tileset walls_house_blocks_LIGHT_01: 39 drawable tiles from 64 candidates.
+LOG  : Lua          f:1228> [BetterBrushPicker] Verified/cache tileset walls_house_blocks_LIGHT_01_MIRRORED: 39 drawable tiles from 64 candidates.
+LOG  : Lua          f:1229> [BetterBrushPicker] Verified/cache tileset walls_house_brick_01: 51 drawable tiles from 64 candidates.
+LOG  : Lua          f:1230> [BetterBrushPicker] Verified/cache tileset walls_house_brick_01_MIRRORED: 50 drawable tiles from 64 candidates.
+LOG  : Lua          f:1231> [BetterBrushPicker] Verified/cache tileset walls_house_brick_LIGHT_01: 50 drawable tiles from 64 candidates.
+LOG  : Lua          f:1232> [BetterBrushPicker] Verified/cache tileset walls_house_brick_LIGHT_01_MIRRORED: 51 drawable tiles from 64 candidates.
+LOG  : Lua          f:1233> [BetterBrushPicker] Verified/cache tileset walls_house_clapboard_01: 40 drawable tiles from 64 candidates.
+LOG  : Lua          f:1234> [BetterBrushPicker] Verified/cache tileset walls_house_clapboard_01_MIRRORED: 36 drawable tiles from 64 candidates.
+LOG  : Lua          f:1235> [BetterBrushPicker] Verified/cache tileset walls_house_clapboard_LIGHT_01: 40 drawable tiles from 64 candidates.
+LOG  : Lua          f:1236> [BetterBrushPicker] Verified/cache tileset walls_house_clapboard_LIGHT_01_MIRRORED: 36 drawable tiles from 64 candidates.
+LOG  : Lua          f:1237> [BetterBrushPicker] Verified/cache tileset walls_house_flatstone_01: 25 drawable tiles from 64 candidates.
+LOG  : Lua          f:1238> [BetterBrushPicker] Verified/cache tileset walls_house_flatstone_01_MIRRORED: 25 drawable tiles from 64 candidates.
+LOG  : Lua          f:1239> [BetterBrushPicker] Verified/cache tileset walls_house_smooth_01: 46 drawable tiles from 64 candidates.
+LOG  : Lua          f:1240> [BetterBrushPicker] Verified/cache tileset walls_house_smooth_01_MIRRORED: 44 drawable tiles from 64 candidates.
+LOG  : Lua          f:1241> [BetterBrushPicker] Verified/cache tileset walls_house_stone_01: 39 drawable tiles from 64 candidates.
+LOG  : Lua          f:1242> [BetterBrushPicker] Verified/cache tileset walls_house_stone_01_MIRRORED: 39 drawable tiles from 64 candidates.
+LOG  : Lua          f:1243> [BetterBrushPicker] Verified/cache tileset walls_house_trailer_01: 40 drawable tiles from 64 candidates.
+LOG  : Lua          f:1244> [BetterBrushPicker] Verified/cache tileset walls_house_trailer_01_MIRRORED: 36 drawable tiles from 64 candidates.
+LOG  : Lua          f:1245> [BetterBrushPicker] Verified/cache tileset walls_house_wood_01: 36 drawable tiles from 64 candidates.
+LOG  : Lua          f:1246> [BetterBrushPicker] Verified/cache tileset walls_house_wood_01_MIRRORED: 36 drawable tiles from 64 candidates.
+LOG  : Lua          f:1248> [BetterBrushPicker] Verified/cache tileset walls_interior_bathroom_01: 104 drawable tiles from 128 candidates.
+LOG  : Lua          f:1250> [BetterBrushPicker] Verified/cache tileset walls_interior_cutaways_01: 26 drawable tiles from 128 candidates.
+LOG  : Lua          f:1252> [BetterBrushPicker] Verified/cache tileset walls_interior_detailing_01: 120 drawable tiles from 128 candidates.
+LOG  : Lua          f:1255> [BetterBrushPicker] Verified/cache tileset walls_interior_detailing_bathroom_01: 192 drawable tiles from 256 candidates.
+LOG  : Lua          f:1258> [BetterBrushPicker] Verified/cache tileset walls_interior_detailing_bathroom_02: 192 drawable tiles from 256 candidates.
+LOG  : Lua          f:1261> [BetterBrushPicker] Verified/cache tileset walls_interior_detailing_bathroom_03: 192 drawable tiles from 256 candidates.
+LOG  : Lua          f:1263> [BetterBrushPicker] Verified/cache tileset walls_interior_house_01: 120 drawable tiles from 128 candidates.
+LOG  : Lua          f:1265> [BetterBrushPicker] Verified/cache tileset walls_interior_house_02: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1266> [BetterBrushPicker] Verified/cache tileset walls_interior_house_03: 64 drawable tiles from 64 candidates.
+LOG  : Lua          f:1268> [BetterBrushPicker] Verified/cache tileset walls_interior_house_04: 96 drawable tiles from 128 candidates.
+LOG  : Lua          f:1270> [BetterBrushPicker] Verified/cache tileset walls_interior_house_05: 112 drawable tiles from 136 candidates.
+LOG  : Lua          f:1272> [BetterBrushPicker] Verified/cache tileset walls_interior_house_06: 144 drawable tiles from 144 candidates.
+LOG  : Lua          f:1274> [BetterBrushPicker] Verified/cache tileset walls_interior_house_07: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1276> [BetterBrushPicker] Verified/cache tileset walls_interior_house_08: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1278> [BetterBrushPicker] Verified/cache tileset walls_interior_house_09: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1280> [BetterBrushPicker] Verified/cache tileset walls_interior_house_10: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1282> [BetterBrushPicker] Verified/cache tileset walls_interior_house_11: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1284> [BetterBrushPicker] Verified/cache tileset walls_interior_house_12: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1286> [BetterBrushPicker] Verified/cache tileset walls_interior_house_13: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1288> [BetterBrushPicker] Verified/cache tileset walls_interior_house_14: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1290> [BetterBrushPicker] Verified/cache tileset walls_interior_house_15: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1292> [BetterBrushPicker] Verified/cache tileset walls_interior_house_16: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1294> [BetterBrushPicker] Verified/cache tileset walls_interior_house_17: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1296> [BetterBrushPicker] Verified/cache tileset walls_interior_house_18: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1298> [BetterBrushPicker] Verified/cache tileset walls_interior_house_19: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1300> [BetterBrushPicker] Verified/cache tileset walls_interior_house_20: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1302> [BetterBrushPicker] Verified/cache tileset walls_interior_house_21: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1304> [BetterBrushPicker] Verified/cache tileset walls_interior_house_22: 64 drawable tiles from 128 candidates.
+LOG  : Lua          f:1306> [BetterBrushPicker] Verified/cache tileset walls_interior_house_23: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1308> [BetterBrushPicker] Verified/cache tileset walls_interior_house_24: 96 drawable tiles from 128 candidates.
+LOG  : Lua          f:1310> [BetterBrushPicker] Verified/cache tileset walls_interior_house_25: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1312> [BetterBrushPicker] Verified/cache tileset walls_interior_house_26: 128 drawable tiles from 128 candidates.
+LOG  : Lua          f:1314> [BetterBrushPicker] Verified/cache tileset walls_interior_house_27: 104 drawable tiles from 144 candidates.
+LOG  : Lua          f:1316> [BetterBrushPicker] Verified/cache tileset walls_logs: 93 drawable tiles from 128 candidates.
+LOG  : Lua          f:1318> [BetterBrushPicker] Verified/cache tileset walls_special_01: 8 drawable tiles from 128 candidates.
+LOG  : Lua          f:1320> [BetterBrushPicker] Verified/cache tileset water_tank: 38 drawable tiles from 184 candidates.
+LOG  : Lua          f:1321> [BetterBrushPicker] Verified/cache tileset weapons_01: 32 drawable tiles from 64 candidates.
+LOG  : Lua          f:1322> [BetterBrushPicker] Verified/cache tileset z_templates_letterboard: 0 drawable tiles from 4 candidates.
+LOG  : Lua          f:1323> [BetterBrushPicker] Verified/cache tileset z_templates_wallcutaways: 10 drawable tiles from 80 candidates.
+LOG  : Lua          f:1323> [BetterBrushPicker] VERIFIED INDEX READY: 39035 unique drawable tiles; raw candidates=61740; checked=61740; rejected(no texture)=22365; duplicates=340; cached sets=515.
+LOG  : Lua          f:1323> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=0 directFallback=0 missing=0
+LOG  : Lua          f:1323> [BetterBrushPicker] Thumbnail sample: 5/5 distributed index points resolved via IsoSprite texture paths.
+LOG  : Lua          f:2406> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=332 directFallback=0 missing=0
+LOG  : Lua          f:2466> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=332 directFallback=0 missing=0
+LOG  : Lua          f:2572> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=332 directFallback=0 missing=0
+LOG  : Lua          f:2653> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=332 directFallback=0 missing=0
+LOG  : Lua          f:3111> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=332 directFallback=0 missing=0
+LOG  : Lua          f:3289> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=332 directFallback=0 missing=0
+LOG  : Lua          f:3356> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=332 directFallback=0 missing=0
+LOG  : Lua          f:3565> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=332 directFallback=0 missing=0
+LOG  : Lua          f:3602> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=332 directFallback=0 missing=0
+LOG  : Lua          f:3635> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=332 directFallback=0 missing=0
+LOG  : Lua          f:3667> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=332 directFallback=0 missing=0
+LOG  : Lua          f:3714> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=332 directFallback=0 missing=0
+LOG  : Lua          f:3753> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=332 directFallback=0 missing=0
+LOG  : Lua          f:3970> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=772 directFallback=0 missing=0
+LOG  : Lua          f:4006> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=773 directFallback=0 missing=0
+LOG  : Lua          f:4045> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=773 directFallback=0 missing=0
+LOG  : Lua          f:4076> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=773 directFallback=0 missing=0
+LOG  : Lua          f:4121> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=773 directFallback=0 missing=0
+LOG  : Lua          f:4206> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=773 directFallback=0 missing=0
+LOG  : Lua          f:4272> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=773 directFallback=0 missing=0
+LOG  : Lua          f:4326> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=773 directFallback=0 missing=0
+LOG  : Lua          f:4360> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=773 directFallback=0 missing=0
+LOG  : Lua          f:4395> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=773 directFallback=0 missing=0
+LOG  : Lua          f:4432> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=773 directFallback=0 missing=0
+LOG  : Lua          f:4473> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=773 directFallback=0 missing=0
+LOG  : Lua          f:4498> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=773 directFallback=0 missing=0
+LOG  : Lua          f:4533> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=773 directFallback=0 missing=0
+LOG  : Lua          f:4602> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=813 directFallback=0 missing=0
+LOG  : Lua          f:4645> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=853 directFallback=0 missing=0
+LOG  : Lua          f:4713> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=853 directFallback=0 missing=0
+LOG  : Lua          f:4796> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=893 directFallback=0 missing=0
+LOG  : Lua          f:4836> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=933 directFallback=0 missing=0
+LOG  : Lua          f:4876> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=973 directFallback=0 missing=0
+LOG  : Lua          f:4928> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1013 directFallback=0 missing=0
+LOG  : Lua          f:5073> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1052 directFallback=0 missing=0
+LOG  : Lua          f:5190> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1052 directFallback=0 missing=0
+LOG  : Lua          f:5248> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1052 directFallback=0 missing=0
+LOG  : Lua          f:5272> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1052 directFallback=0 missing=0
+LOG  : Lua          f:5496> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1052 directFallback=0 missing=0
+LOG  : Lua          f:5532> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1052 directFallback=0 missing=0
+LOG  : Lua          f:5574> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1052 directFallback=0 missing=0
+LOG  : Lua          f:5636> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1052 directFallback=0 missing=0
+LOG  : Lua          f:5684> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1052 directFallback=0 missing=0
+LOG  : Lua          f:5752> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1052 directFallback=0 missing=0
+LOG  : Lua          f:5789> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1052 directFallback=0 missing=0
+LOG  : Lua          f:5831> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1092 directFallback=0 missing=0
+LOG  : Lua          f:5868> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1092 directFallback=0 missing=0
+LOG  : Lua          f:5922> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1092 directFallback=0 missing=0
+LOG  : Lua          f:5966> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1092 directFallback=0 missing=0
+LOG  : Lua          f:6009> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1092 directFallback=0 missing=0
+LOG  : Lua          f:6062> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1092 directFallback=0 missing=0
+LOG  : Lua          f:6115> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1092 directFallback=0 missing=0
+LOG  : Lua          f:6150> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1092 directFallback=0 missing=0
+LOG  : Lua          f:6204> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1092 directFallback=0 missing=0
+LOG  : Lua          f:6429> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1404 directFallback=0 missing=0
+LOG  : Lua          f:6538> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1404 directFallback=0 missing=0
+LOG  : Lua          f:6593> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1404 directFallback=0 missing=0
+LOG  : Lua          f:6635> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1404 directFallback=0 missing=0
+LOG  : Lua          f:6673> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1404 directFallback=0 missing=0
+LOG  : Lua          f:6786> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1404 directFallback=0 missing=0
+LOG  : Lua          f:6813> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1404 directFallback=0 missing=0
+LOG  : Lua          f:6841> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1404 directFallback=0 missing=0
+LOG  : Lua          f:6871> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1404 directFallback=0 missing=0
+LOG  : Lua          f:6914> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1404 directFallback=0 missing=0
+LOG  : Lua          f:6955> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1404 directFallback=0 missing=0
+LOG  : Lua          f:6989> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1404 directFallback=0 missing=0
+LOG  : Lua          f:7022> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1404 directFallback=0 missing=0
+LOG  : Lua          f:7063> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1404 directFallback=0 missing=0
+LOG  : Lua          f:7087> [BetterBrushPicker] Thumbnail stats: spriteTexture=0 currentFrame=1404 directFallback=0 missing=0
+LOG  : General      f:7287> Saving worldgen params
+LOG  : General      f:7287> Saving GlobalModData
+LOG  : Lua          f:7287> removing all player data
+LOG  : Lua          f:7287> - player: 0
+LOG  : Lua          f:7287> removing all player data
+LOG  : Lua          f:7287> - player: 0
+LOG  : General      f:7287> GameThread exited.
